@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T21:47:47+00:00",
+ "generated_at": "2026-11-20T22:06:25+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -24,7 +24,8 @@
      "new": false,
      "flags": [
       "check UK eligibility"
-     ]
+     ],
+     "first_seen": "2026-10-23"
     },
     {
      "title": "Business Development Representative, UK",
@@ -33,7 +34,8 @@
      "pay": "",
      "kind": "sdr",
      "new": false,
-     "flags": []
+     "flags": [],
+     "first_seen": "2026-11-06"
     },
     {
      "title": "Enterprise Account Executive - UK",
@@ -42,7 +44,8 @@
      "pay": "",
      "kind": "ae",
      "new": false,
-     "flags": []
+     "flags": [],
+     "first_seen": "2026-09-23"
     }
    ],
    "board": "https://job-boards.greenhouse.io/chainguard",
@@ -53,7 +56,10 @@
    "signal_kind": "expansion",
    "note": "Your tracker shows the BDR UK application as unconfirmed",
    "source": "",
-   "auto": false
+   "auto": false,
+   "horizon": "now",
+   "why_now": "UK SDR/BDR role open",
+   "signal_age": 50
   },
   {
    "name": "Zenity",
@@ -77,31 +83,10 @@
    "signal_kind": "leader",
    "note": "",
    "source": "",
-   "auto": false
-  },
-  {
-   "name": "Cyera",
-   "sector": "Cybersecurity",
-   "score": 90,
-   "status": "Engage now",
-   "hiring": "No UK sales roles seen",
-   "parts": {
-    "team": 20,
-    "pay": 20,
-    "industry": 20,
-    "timing": 20,
-    "path": 10
-   },
-   "jobs": [],
-   "board": "https://cyera.io/careers",
-   "board_kind": "page",
-   "board_verified": true,
-   "signal": "RVP North EMEA + London sales roles",
-   "signal_date": "2026-07-09",
-   "signal_kind": "leader",
-   "note": "",
-   "source": "",
-   "auto": true
+   "auto": false,
+   "horizon": "now",
+   "why_now": "UK / EMEA sales leader hire, 5 days ago",
+   "signal_age": 5
   },
   {
    "name": "incident.io",
@@ -125,7 +110,10 @@
    "signal_kind": "leader",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "now",
+   "why_now": "UK / EMEA sales leader hire, 36 days ago",
+   "signal_age": 36
   },
   {
    "name": "CodeRabbit",
@@ -148,7 +136,8 @@
      "pay": "",
      "kind": "ae",
      "new": false,
-     "flags": []
+     "flags": [],
+     "first_seen": "2026-11-05"
     }
    ],
    "board": "https://jobs.ashbyhq.com/coderabbit",
@@ -159,7 +148,10 @@
    "signal_kind": "expansion",
    "note": "",
    "source": "",
-   "auto": false
+   "auto": false,
+   "horizon": "now",
+   "why_now": "AE hiring, no SDR",
+   "signal_age": 100
   },
   {
    "name": "Geordie AI",
@@ -182,7 +174,8 @@
      "pay": "",
      "kind": "ae",
      "new": false,
-     "flags": []
+     "flags": [],
+     "first_seen": "2026-07-27"
     }
    ],
    "board": "https://jobs.ashbyhq.com/geordieai",
@@ -193,7 +186,10 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "now",
+   "why_now": "AE hiring, no SDR",
+   "signal_age": 176
   },
   {
    "name": "Valarian",
@@ -216,7 +212,8 @@
      "pay": "",
      "kind": "ae",
      "new": false,
-     "flags": []
+     "flags": [],
+     "first_seen": "2026-10-23"
     }
    ],
    "board": "https://jobs.lever.co/valarian",
@@ -227,31 +224,37 @@
    "signal_kind": "funding",
    "note": "Government buyers: seats may need security clearance",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "now",
+   "why_now": "AE hiring, no SDR",
+   "signal_age": 130
   },
   {
-   "name": "Fractile",
-   "sector": "Enterprise AI & data",
-   "score": 65,
-   "status": "Engage now",
+   "name": "Cyera",
+   "sector": "Cybersecurity",
+   "score": 90,
+   "status": "Watch",
    "hiring": "No UK sales roles seen",
    "parts": {
-    "team": 8,
+    "team": 20,
     "pay": 20,
-    "industry": 17,
-    "timing": 18,
-    "path": 2
+    "industry": 20,
+    "timing": 20,
+    "path": 10
    },
    "jobs": [],
-   "board": "https://jobs.ashbyhq.com/fractile",
-   "board_kind": "ashby",
-   "board_verified": false,
-   "signal": "UK's Fractile Raises $720M to Challenge Nvidia's AI Chips - eWeek",
-   "signal_date": "2026-11-17",
-   "signal_kind": "funding",
+   "board": "https://cyera.io/careers",
+   "board_kind": "page",
+   "board_verified": true,
+   "signal": "RVP North EMEA + London sales roles",
+   "signal_date": "2026-07-09",
+   "signal_kind": "leader",
    "note": "",
-   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IT09UTFU2dmQzd1A3d2FNSG9PVk9hS1diM05DdkVMWl9uNk5yVXZmazRvX2JvR1hUbWZDMmJfODBiWEZkdDFNTzl6SWFQd0QtUmpucTR1NVZ2anNfaV9pNjhhVGdKUU5uWjB4R1owRTd1Ujg?oc=5",
-   "auto": true
+   "source": "",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 134
   },
   {
    "name": "Arrakis",
@@ -275,7 +278,37 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 119
+  },
+  {
+   "name": "Fractile",
+   "sector": "Enterprise AI & data",
+   "score": 65,
+   "status": "Watch",
+   "hiring": "No UK sales roles seen",
+   "parts": {
+    "team": 8,
+    "pay": 20,
+    "industry": 17,
+    "timing": 18,
+    "path": 2
+   },
+   "jobs": [],
+   "board": "https://jobs.ashbyhq.com/fractile",
+   "board_kind": "ashby",
+   "board_verified": false,
+   "signal": "UK's Fractile Raises $720M to Challenge Nvidia's AI Chips - eWeek",
+   "signal_date": "2026-11-17",
+   "signal_kind": "funding",
+   "note": "",
+   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IT09UTFU2dmQzd1A3d2FNSG9PVk9hS1diM05DdkVMWl9uNk5yVXZmazRvX2JvR1hUbWZDMmJfODBiWEZkdDFNTzl6SWFQd0QtUmpucTR1NVZ2anNfaV9pNjhhVGdKUU5uWjB4R1owRTd1Ujg?oc=5",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 3
   },
   {
    "name": "Gradient Labs",
@@ -299,7 +332,10 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": false
+   "auto": false,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 172
   },
   {
    "name": "Ankar",
@@ -323,7 +359,10 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 338
   },
   {
    "name": "Model ML",
@@ -347,7 +386,10 @@
    "signal_kind": "funding",
    "note": "",
    "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNODBBUDFLcUVMTEYwNkx6NWtqZ3dHd3Z4RFRoSkZJd3paV2gycF83ZVNKWmw2TmppVV83MmR6OTg3MlFTekpQb1Y5UWVOUWg0c0t5OFRFZDVvN3lsZGtzZ3Rhb19GZ3N5WWt3SEdPNmNaM0lWVElSRm45RkdQMDAxekJzMFZIT21qNTVQY292MFJzNldEdWM1elM3cjNMMVF2Ry1qRFFuNkdNTngxdHVJVzhYNTJld2Jl?oc=5",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 3
   },
   {
    "name": "Arrive",
@@ -371,7 +413,10 @@
    "signal_kind": "expansion",
    "note": "",
    "source": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS25COWpHNG1ib0hxdnA2RGR4UVJiUzBIN2RfVVM5R01UN0tQNk9hTXRfUkMyU2ZXVjJCa2p5TGxyRjU1UWZSb1JhYy0yM1A4VVR5Mk9EbE9ZR2dveEV0UTNsUUJ3T05NeDhTYkpwb2Jrd1FzMXVxQlpaVkgwOEpFVV9DSXRXZmJRaWRIU0NQZEM3X2NZ?oc=5",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 2
   },
   {
    "name": "CloudBees",
@@ -395,31 +440,10 @@
    "signal_kind": "expansion",
    "note": "",
    "source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbS1GVl9vOGM1MEJSU29QU0ZvX2lMM0NQbEQwZnF4cDZWMDVQYkdaRXo3SUlnS2pSczd5VW5qVkxiQ3hHRWhRdE5OMlV0QmlZUFFNQlFRRlBvLXBHZzFmOE9RMmtQSGIzQmNNdEJpRGVFRWQ2MEdoSmQ4NWFBX3JFb3dVNFZlcFBxVkNZRGl2MDQxc3RjSGdNeTJjanM1VER3S1FEdUctejhnRDM1UDluS0NfYk1Tc2I0VU92WFU5eng0MnYwOHVYdERwSjNKSTU3QXNLcWV1SkxtVmZNV3NpUFEzOHDSAeoBQVVfeXFMT0xSNWFubFhONjN2ZHY3N0ZwdmFUeUs3OS1FWHBMSkU4WHJSZkRzLXc1WXNkcVAxX2htZW5LLXh3M2Z0WDVBOFdOSUZraVhkNG5aZHJ1UXczS09HYWhtdkk3VEZpdjBIdjF6TWQ1SktEMkFKejg2M2hOOGpXQjlJa2d1QzBvLTFjRk1DYlpseVpwYVVlY1ljTzhuV01SOHBncmZTc2xpMTc5dEtraDNzbTIyb2V3OE44V0xQbDkwN3hjS3RZdHI0Vk5GU0x5dGZHeExKSWswSldBb05pc0xKRHFVeUlNUmk2YTJn?oc=5",
-   "auto": true
-  },
-  {
-   "name": "Flagship Pioneering",
-   "sector": "Enterprise AI & data",
-   "score": 60,
-   "status": "Watch",
-   "hiring": "No UK sales roles seen",
-   "parts": {
-    "team": 8,
-    "pay": 13,
-    "industry": 17,
-    "timing": 20,
-    "path": 2
-   },
-   "jobs": [],
-   "board": "https://apply.workable.com/flagship",
-   "board_kind": "workable",
-   "board_verified": false,
-   "signal": "Flagship Pioneering Launches Flagship Origination Lab in London to Create AI-Native Platform Companies in the U.K. - Pre",
-   "signal_date": "2026-11-16",
-   "signal_kind": "expansion",
-   "note": "",
-   "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMlVQNmlsWkRIcW1lMWlwYXlKNFZNcElDYVBUdFM0YjNtdHpvZUNLd1l4QWlhMHRvZXQ0UEdWODN6d0MwN1B1b2V1SHRzb1hLb3dnRDZ4VUcwME5hWmx3UzhuRHN3R2RDaFE1WXBXSUY1Uk5mdkxMMmFqemFwUXFyT0tOcEl6cTlxeUJfWkY0MTZqMVJRTkJSSzNmai1SNFZfeWxQSWlXcEQwczVLMWxBbEZpTEJWUDBZQldQcVc4a1UwcEpYMW9PNmdoam9KUEFNTWRCNW84VGlUSzNUSDY2Mkk4aVk0bWZuVndQYXIzZUZvbWhmSjU4?oc=5",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 8
   },
   {
    "name": "Mindgard",
@@ -443,14 +467,17 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 100
   },
   {
    "name": "Tracebit",
    "sector": "Cybersecurity",
    "score": 53,
    "status": "Watch",
-   "hiring": "No UK sales roles seen",
+   "hiring": "SDR open, but posted pay is below your bar",
    "parts": {
     "team": 12,
     "pay": 13,
@@ -468,7 +495,8 @@
      "new": false,
      "flags": [
       "posted pay is OTE only, base likely under £55k"
-     ]
+     ],
+     "first_seen": "2026-11-19"
     }
    ],
    "board": "https://jobs.ashbyhq.com/tracebit",
@@ -479,10 +507,146 @@
    "signal_kind": "funding",
    "note": "",
    "source": "",
-   "auto": true
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 248
   }
  ],
  "spotted": [],
+ "pipeline": [
+  {
+   "company": "Arrive",
+   "kind": "expansion",
+   "date": "2026-11-18",
+   "title": "Arrive opens new London office focused on AI urban mobility data - Fleet World",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS25COWpHNG1ib0hxdnA2RGR4UVJiUzBIN2RfVVM5R01UN0tQNk9hTXRfUkMyU2ZXVjJCa2p5TGxyRjU1UWZSb1JhYy0yM1A4VVR5Mk9EbE9ZR2dveEV0UTNsUUJ3T05NeDhTYkpwb2Jrd1FzMXVxQlpaVkgwOEpFVV9DSXRXZmJRaWRIU0NQZEM3X2NZ?oc=5",
+   "score": 60,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/arrive",
+   "covenant": false
+  },
+  {
+   "company": "Fractile",
+   "kind": "funding",
+   "date": "2026-11-17",
+   "title": "UK's Fractile Raises $720M to Challenge Nvidia's AI Chips - eWeek",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IT09UTFU2dmQzd1A3d2FNSG9PVk9hS1diM05DdkVMWl9uNk5yVXZmazRvX2JvR1hUbWZDMmJfODBiWEZkdDFNTzl6SWFQd0QtUmpucTR1NVZ2anNfaV9pNjhhVGdKUU5uWjB4R1owRTd1Ujg?oc=5",
+   "score": 65,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/fractile",
+   "covenant": false
+  },
+  {
+   "company": "Model ML",
+   "kind": "funding",
+   "date": "2026-11-17",
+   "title": "London’s Model ML raises $250M from General Atlantic and QED to put AI agents inside banks - Tech Funding News",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNODBBUDFLcUVMTEYwNkx6NWtqZ3dHd3Z4RFRoSkZJd3paV2gycF83ZVNKWmw2TmppVV83MmR6OTg3MlFTekpQb1Y5UWVOUWg0c0t5OFRFZDVvN3lsZGtzZ3Rhb19GZ3N5WWt3SEdPNmNaM0lWVElSRm45RkdQMDAxekJzMFZIT21qNTVQY292MFJzNldEdWM1elM3cjNMMVF2Ry1qRFFuNkdNTngxdHVJVzhYNTJld2Jl?oc=5",
+   "score": 63,
+   "sector": "Fintech",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://apply.workable.com/model-ml",
+   "covenant": false
+  },
+  {
+   "company": "CloudBees",
+   "kind": "expansion",
+   "date": "2026-11-12",
+   "title": "CloudBees opens London office as European enterprises embrace agentic coding - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbS1GVl9vOGM1MEJSU29QU0ZvX2lMM0NQbEQwZnF4cDZWMDVQYkdaRXo3SUlnS2pSczd5VW5qVkxiQ3hHRWhRdE5OMlV0QmlZUFFNQlFRRlBvLXBHZzFmOE9RMmtQSGIzQmNNdEJpRGVFRWQ2MEdoSmQ4NWFBX3JFb3dVNFZlcFBxVkNZRGl2MDQxc3RjSGdNeTJjanM1VER3S1FEdUctejhnRDM1UDluS0NfYk1Tc2I0VU92WFU5eng0MnYwOHVYdERwSjNKSTU3QXNLcWV1SkxtVmZNV3NpUFEzOHDSAeoBQVVfeXFMT0xSNWFubFhONjN2ZHY3N0ZwdmFUeUs3OS1FWHBMSkU4WHJSZkRzLXc1WXNkcVAxX2htZW5LLXh3M2Z0WDVBOFdOSUZraVhkNG5aZHJ1UXczS09HYWhtdkk3VEZpdjBIdjF6TWQ1SktEMkFKejg2M2hOOGpXQjlJa2d1QzBvLTFjRk1DYlpseVpwYVVlY1ljTzhuV01SOHBncmZTc2xpMTc5dEtraDNzbTIyb2V3OE44V0xQbDkwN3hjS3RZdHI0Vk5GU0x5dGZHeExKSWswSldBb05pc0xKRHFVeUlNUmk2YTJn?oc=5",
+   "score": 60,
+   "sector": "Dev tools",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/cloudbees",
+   "covenant": false
+  },
+  {
+   "company": "Mindgard",
+   "kind": "funding",
+   "date": "2026-08-12",
+   "title": "$30M Series A; UK GTM expansion",
+   "link": "",
+   "score": 59,
+   "sector": "Cybersecurity",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://mindgard.ai/careers",
+   "covenant": false
+  },
+  {
+   "company": "Arrakis",
+   "kind": "funding",
+   "date": "2026-07-24",
+   "title": "$30M Series A (Blossom, Accel)",
+   "link": "",
+   "score": 69,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://apply.workable.com/arrakis",
+   "covenant": false
+  },
+  {
+   "company": "Cyera",
+   "kind": "leader",
+   "date": "2026-07-09",
+   "title": "RVP North EMEA + London sales roles",
+   "link": "",
+   "score": 90,
+   "sector": "Cybersecurity",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://cyera.io/careers",
+   "covenant": false
+  },
+  {
+   "company": "Gradient Labs",
+   "kind": "funding",
+   "date": "2026-06-01",
+   "title": "$26M Series A; US-first sales",
+   "link": "",
+   "score": 64,
+   "sector": "Fintech",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/gradient-labs",
+   "covenant": false
+  },
+  {
+   "company": "Tracebit",
+   "kind": "funding",
+   "date": "2026-03-17",
+   "title": "$20M Series A",
+   "link": "",
+   "score": 53,
+   "sector": "Cybersecurity",
+   "tracked": true,
+   "hiring": "SDR open, but posted pay is below your bar",
+   "board": "https://jobs.ashbyhq.com/tracebit",
+   "covenant": false
+  },
+  {
+   "company": "Ankar",
+   "kind": "funding",
+   "date": "2025-12-17",
+   "title": "$20M Series A (Atomico)",
+   "link": "",
+   "score": 63,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/ankar",
+   "covenant": false
+  }
+ ],
+ "now_window_days": 120,
  "roundups": [
   {
    "title": "UK Startup Funding Report: £439.0m raised across Biotech, Healthtech and Fintech (9–13 Nov 2026). - Startupmag",

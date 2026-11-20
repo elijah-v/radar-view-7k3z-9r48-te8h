@@ -121,6 +121,29 @@ dialog::backdrop { background: rgba(8,10,16,.55); }
 .dlg p { margin: 0; font-size: 13px; color: var(--muted); }
 @media (max-width: 560px) { .cards { grid-template-columns: 1fr; } .btn .lbl { display: none; } .btn.primary .lbl, .btn.keep .lbl { display: inline; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+.tabs { max-width: 1160px; margin: 0 auto; padding: 0 18px; display: flex; gap: 4px; }
+.tab { border: 0; background: none; padding: 10px 14px 11px; font-weight: 700; font-size: 14.5px; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; display: inline-flex; gap: 8px; align-items: center; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab .cnt { font-family: var(--mono); font-size: 12px; background: var(--watch-bg); color: var(--ink); border-radius: 999px; padding: 1px 8px; }
+.intro { margin: 0; color: var(--muted); font-size: 14px; max-width: 80ch; }
+.chipset { display: flex; flex-wrap: wrap; gap: 6px; }
+.chipb { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; }
+.chipb[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.fl { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+.fbar { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: end; box-shadow: var(--shadow); }
+.chk { display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--ink); }
+.kind { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--watch-bg); white-space: nowrap; }
+.k-funding { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); }
+.k-expansion { background: var(--apply-bg); color: var(--apply); }
+.k-leader { background: var(--engage-bg); color: var(--engage); }
+.more { font-size: 12px; color: var(--accent); cursor: pointer; background: none; border: 0; padding: 0; }
+.subrow td { background: color-mix(in srgb, var(--bg) 55%, var(--surface)); font-size: 13px; }
+.age { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.why-now { font-weight: 650; font-size: 14px; margin: 0; }
+details.note summary { cursor: pointer; font-size: 12.5px; color: var(--accent); }
+details.note textarea { margin-top: 6px; }
+[hidden] { display: none !important; }
 </style>
 </head>
 <body>
@@ -132,75 +155,85 @@ dialog::backdrop { background: rgba(8,10,16,.55); }
   <div class="actions">
     <button class="btn keep" id="refresh" type="button" title="Reload the latest results"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg><span class="lbl">Refresh</span></button>
     <button class="btn primary" id="scan" type="button" title="Run a fresh scan now"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 12 18 6"/><circle cx="12" cy="12" r="1.5"/></svg><span class="lbl">Scan now</span></button>
-    <button class="btn iconbtn" id="settings" type="button" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    <button class="btn iconbtn" id="settings" type="button" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></button>
   </div>
+</div>
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" id="tab-now" aria-selected="true" type="button">Act now <span class="cnt" id="cnt-now">0</span></button>
+  <button class="tab" role="tab" id="tab-pipe" aria-selected="false" type="button">Pipeline <span class="cnt" id="cnt-pipe">0</span></button>
 </div></div>
 
 <main class="wrap">
   <div class="banner" id="banner" hidden role="status"></div>
-  <div class="stats" id="stats" role="group" aria-label="Filter by status"></div>
 
-  <section class="sec">
-    <div class="sec-head"><h2>Act now</h2><p>Apply now: a qualifying UK SDR/BDR role is open. Engage now: a strong signal or a sales hire, but no SDR role yet.</p></div>
+  <!-- ACT NOW -->
+  <section id="view-now" class="sec" style="gap:18px">
+    <p class="intro" id="now-intro">Companies with evidence of a UK sales build right now: an SDR/BDR role open, a UK AE, SDR manager or sales leader being hired, or a UK sales leader hire or London build-out in the last few months. Funding on its own is in Pipeline.</p>
+    <div class="stats" id="stats" role="group" aria-label="Filter by status"></div>
+    <div class="fbar">
+      <label class="fl">Sector<select id="n-sector"><option value="">All sectors</option></select></label>
+      <label class="fl">Your status<select id="n-mine"><option value="">Any</option><option value="none">Not set</option><option>Engaged</option><option>Applied</option></select></label>
+      <label class="fl">Search<input type="search" id="n-q" placeholder="Company or signal"></label>
+      <label class="chk"><input type="checkbox" id="n-hide" checked> Hide "Not interested"</label>
+    </div>
     <div class="cards" id="cards"></div>
   </section>
 
-  <section class="sec" id="spot-sec" hidden>
-    <div class="sec-head"><h2>Newly spotted</h2><p>Companies from this week's funding and expansion news that pass the score bar.</p></div>
-    <div class="spotted" id="spotted"></div>
-  </section>
-
-  <section class="sec">
-    <div class="sec-head"><h2>Full radar</h2>
-      <div class="filters">
-        <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
-        <select id="mineF" aria-label="Your status">
-          <option value="">Any status of yours</option><option value="none">Not set</option><option>Engaged</option><option>Applied</option><option>Not interested</option>
-        </select>
-        <input type="search" id="q" placeholder="Search" aria-label="Search companies">
-      </div>
+  <!-- PIPELINE -->
+  <section id="view-pipe" class="sec" style="gap:16px" hidden>
+    <p class="intro">Early signals: companies worth knowing for a future move, not likely to post an SDR role soon. Set how far back to look and which signals count.</p>
+    <div class="fbar">
+      <label class="fl">Signals from the last<select id="p-days">
+        <option value="30">30 days</option><option value="90">90 days</option><option value="180">6 months</option><option value="365">12 months</option><option value="0">Any time</option>
+      </select></label>
+      <div class="fl">Signal type<div class="chipset" id="p-kinds"></div></div>
+      <label class="fl">Min score<select id="p-min"><option value="0">Any</option><option value="50">50+</option><option value="60">60+</option><option value="70">70+</option><option value="80">80+</option></select></label>
+      <label class="fl">Sector<select id="p-sector"><option value="">All sectors</option></select></label>
+      <label class="fl">Search<input type="search" id="p-q" placeholder="Company or headline"></label>
+      <label class="chk"><input type="checkbox" id="p-tracked"> Tracked only</label>
+      <label class="chk"><input type="checkbox" id="p-cov"> Show covenant-flagged</label>
     </div>
     <div class="tw"><table>
-      <thead><tr><th>#</th><th>Company</th><th>Sector</th><th>Score</th><th>UK sales hiring</th><th>Radar</th><th>Your status</th></tr></thead>
-      <tbody id="rows"></tbody>
+      <thead><tr><th>Company</th><th>Latest signal</th><th>When</th><th>Score</th><th>Sector</th><th>Job board</th><th>Your status</th></tr></thead>
+      <tbody id="p-rows"></tbody>
     </table></div>
+    <p class="muted" id="p-foot" style="margin:0;font-size:13px"></p>
   </section>
 
-  <section id="roundups" class="sec" hidden><h2>Weekly roundups to skim</h2><ul id="rl" style="margin:0;padding-left:18px"></ul></section>
-
   <details class="rubric">
-    <summary>How the score works (out of 100)</summary>
+    <summary>How it decides</summary>
     <ul>
-      <li><b>Team and backers, 25:</b> tier-1 investor and elite founder background.</li>
-      <li><b>Pay power, 20:</b> bigger rounds score higher.</li>
-      <li><b>Industry, 20:</b> cybersecurity 20, enterprise AI, data and dev tools 17, fintech 15, other 8.</li>
-      <li><b>Timing, 25:</b> SDR/BDR open in the UK 25; sales leader, AE or SDR manager hiring 23; fresh signal fades with age.</li>
-      <li><b>Path to AE, 10:</b> a London AE team scores highest.</li>
+      <li><b>Act now, Apply now:</b> a UK or London SDR/BDR role is open and its posted pay clears your bar (OTE-only pay is estimated at 70% base).</li>
+      <li><b>Act now, Engage now:</b> a UK AE, SDR manager or sales leader role is open, or a UK sales leader was hired or a London office/EMEA build-out announced within the window shown in the intro.</li>
+      <li><b>Pipeline:</b> everything else on file: funding rounds, founder pedigree, older expansion news, tracked companies with no UK sales roles yet.</li>
+      <li><b>Score (out of 100):</b> team and backers 25, pay power 20, industry 20, timing 25, path to AE 10.</li>
     </ul>
-    <p class="muted" style="margin:0 0 12px">Scores are rule-based estimates. Your status and notes are saved in this browser only.</p>
+    <p class="muted" style="margin:0 0 12px">Your status, notes and filters are saved in this browser only.</p>
   </details>
 </main>
 
 <dialog id="dlg"><form method="dialog" class="dlg" id="dform">
   <h2>Scan now settings</h2>
-  <p>Enter your scanner repo name. Scan now then opens GitHub's Run workflow page for you, and this page updates itself when the scan finishes. The token is optional: with a token, Scan now starts the scan in one click. Both are stored only in this browser.</p>
+  <p>Enter your scanner repo name. With a token, Scan now starts the scan in one click; without one it opens GitHub's Run workflow page. Both are stored only in this browser.</p>
   <label>Scanner repo (owner/name)<input type="text" id="s-repo" placeholder="your-username/company-radar" autocomplete="off" spellcheck="false"></label>
   <label>GitHub token (optional)<input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off"></label>
   <div class="row" style="justify-content:flex-end">
     <button class="btn" value="cancel" type="submit">Cancel</button>
-    <button class="btn primary" value="save" type="submit" id="s-save">Save</button>
+    <button class="btn primary" value="save" type="submit">Save</button>
   </div>
 </form></dialog>
 
 <script>
 (function () {
   "use strict";
-  var ST = ["Apply now", "Engage now", "Watch"];
   var CLS = { "Apply now": "st-apply", "Engage now": "st-engage", "Watch": "st-watch" };
-  var S = { data: null, filter: "", sector: "", mine: "", q: "", open: {}, scanning: false };
+  var KINDS = [["funding", "Funding"], ["expansion", "London / EMEA expansion"], ["leader", "Sales leader hire"], ["other", "Other"]];
   var store = { get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
                 set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
-  var mine = {}; try { mine = JSON.parse(store.get("radar.mine") || "{}") || {}; } catch (e) { mine = {}; }
+  function loadJSON(k, d) { try { return JSON.parse(store.get(k) || "") || d; } catch (e) { return d; } }
+  var mine = loadJSON("radar.mine", {});
+  var PF = Object.assign({ days: "180", kinds: ["funding", "expansion", "leader", "other"], min: "60", sector: "", q: "", tracked: false, cov: false }, loadJSON("radar.pf", {}));
+  var S = { data: null, nFilter: "", nSector: "", nMine: "", nQ: "", nHide: true, open: {}, scanning: false };
 
   function $(id) { return document.getElementById(id); }
   function el(tag, attrs, kids) {
@@ -209,251 +242,266 @@ dialog::backdrop { background: rgba(8,10,16,.55); }
       if (k === "class") n.className = attrs[k]; else if (k === "text") n.textContent = attrs[k];
       else if (k.indexOf("on") === 0) n.addEventListener(k.slice(2), attrs[k]); else n.setAttribute(k, attrs[k]);
     });
-    (kids || []).forEach(function (c) { if (c == null || c === false) return; n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    (kids || []).forEach(function (c) { if (c == null || c === false || c === "") return; n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
     return n;
   }
   function str(v) { return v == null ? "" : String(v); }
   function url(u) { u = str(u); return /^https?:\/\//i.test(u) ? u : ""; }
-  function key(c) { return str(c.name).toLowerCase(); }
-  function cls(c) { return CLS[c.status] || "st-watch"; }
+  function key(n) { return str(n).toLowerCase(); }
   function link(href, text) { var u = url(href); return u ? el("a", { href: u, target: "_blank", rel: "noopener noreferrer", text: text }) : el("span", { text: text }); }
-  function ago(iso) {
-    var t = Date.parse(iso); if (isNaN(t)) return "";
-    var m = Math.max(0, Math.round((Date.now() - t) / 60000));
-    if (m < 2) return "just now"; if (m < 60) return m + " min ago";
-    var h = Math.round(m / 60); if (h < 36) return h + (h === 1 ? " hour ago" : " hours ago");
-    return Math.round(h / 24) + " days ago";
-  }
+  function daysSince(d) { var t = Date.parse(str(d).slice(0, 10)); return isNaN(t) ? null : Math.max(0, Math.floor((Date.now() - t) / 86400000)); }
+  function ageText(d) { var n = daysSince(d); if (n == null) return "date unknown"; if (n === 0) return "today"; if (n === 1) return "yesterday"; if (n < 60) return n + " days ago"; if (n < 365) return Math.round(n / 30) + " months ago"; return (n / 365).toFixed(1) + " years ago"; }
+  function ago(iso) { var t = Date.parse(iso); if (isNaN(t)) return ""; var m = Math.max(0, Math.round((Date.now() - t) / 60000)); if (m < 2) return "just now"; if (m < 60) return m + " min ago"; var h = Math.round(m / 60); if (h < 36) return h + (h === 1 ? " hour ago" : " hours ago"); return Math.round(h / 24) + " days ago"; }
   function banner(text, kind) { var b = $("banner"); b.hidden = !text; b.textContent = text || ""; b.className = "banner" + (kind ? " " + kind : ""); }
   function saveMine() { store.set("radar.mine", JSON.stringify(mine)); }
+  function savePF() { store.set("radar.pf", JSON.stringify(PF)); }
+  function kindLabel(k) { for (var i = 0; i < KINDS.length; i++) if (KINDS[i][0] === k) return KINDS[i][1]; return "Other"; }
+  function kindOf(k) { return k === "funding" || k === "expansion" || k === "leader" ? k : "other"; }
 
-  function mineControl(c) {
-    var m = mine[key(c)] || {};
-    var sel = el("select", { "aria-label": "Your status for " + c.name });
+  function mineControl(name) {
+    var m = mine[key(name)] || {};
+    var sel = el("select", { "aria-label": "Your status for " + name });
     ["", "Engaged", "Applied", "Not interested"].forEach(function (v) { var o = el("option", { value: v, text: v || "Not set" }); if ((m.status || "") === v) o.selected = true; sel.appendChild(o); });
     sel.addEventListener("click", function (e) { e.stopPropagation(); });
-    sel.addEventListener("change", function (e) { e.stopPropagation(); var k = key(c); mine[k] = Object.assign({}, mine[k], { status: sel.value }); saveMine(); renderAll(); });
+    sel.addEventListener("change", function (e) { e.stopPropagation(); var k = key(name); mine[k] = Object.assign({}, mine[k], { status: sel.value }); saveMine(); renderAll(); });
     return sel;
   }
+  function noteBox(name) {
+    var m = mine[key(name)] || {};
+    var ta = el("textarea", { "aria-label": "Your note on " + name, placeholder: "Who you contacted, what they said" });
+    ta.value = str(m.note);
+    ta.addEventListener("input", function () { var k = key(name); mine[k] = Object.assign({}, mine[k], { note: ta.value }); saveMine(); });
+    return el("details", { class: "note" }, [el("summary", { text: m.note ? "Your note" : "Add a note" }), ta]);
+  }
 
-  function visible() {
-    var q = S.q.trim().toLowerCase();
+  /* ---------- tabs ---------- */
+  function setTab(t) {
+    var now = t !== "pipeline";
+    $("view-now").hidden = !now; $("view-pipe").hidden = now;
+    $("tab-now").setAttribute("aria-selected", String(now)); $("tab-pipe").setAttribute("aria-selected", String(!now));
+    if (location.hash !== (now ? "#now" : "#pipeline")) history.replaceState(null, "", now ? "#now" : "#pipeline");
+  }
+  $("tab-now").addEventListener("click", function () { setTab("now"); });
+  $("tab-pipe").addEventListener("click", function () { setTab("pipeline"); });
+  window.addEventListener("hashchange", function () { setTab(location.hash === "#pipeline" ? "pipeline" : "now"); });
+
+  /* ---------- act now ---------- */
+  function nowList() {
     return S.data.companies.filter(function (c) {
-      var m = (mine[key(c)] || {}).status || "";
-      if (S.filter && c.status !== S.filter) return false;
-      if (S.sector && c.sector !== S.sector) return false;
-      if (S.mine === "none" && m) return false;
-      if (S.mine && S.mine !== "none" && m !== S.mine) return false;
-      if (q && [c.name, c.signal, c.note, c.sector, c.hiring].map(str).join(" ").toLowerCase().indexOf(q) < 0) return false;
-      return true;
+      var h = c.horizon || (c.status === "Watch" ? "pipeline" : "now");
+      return h === "now";
     });
   }
-
-  function renderStamp() {
-    var s = $("stamp"); var d = S.data;
-    if (!d) { s.textContent = "Loading…"; return; }
-    var old = Date.now() - Date.parse(d.generated_at) > 3 * 86400000;
-    s.textContent = "Scanned " + ago(d.generated_at) + " · " + d.companies.length + " companies tracked";
-    s.className = "stamp" + (old ? " stale" : "");
-  }
-
   function renderStats() {
-    var box = $("stats"); box.textContent = ""; var cnt = {};
-    S.data.companies.forEach(function (c) { cnt[c.status] = (cnt[c.status] || 0) + 1; });
-    var newRoles = S.data.companies.reduce(function (a, c) { return a + c.jobs.filter(function (j) { return j.new; }).length; }, 0);
-    function stat(label, n, st, onclick, pressed) {
-      return el("button", { class: "stat " + (st ? CLS[st] : ""), type: "button", "aria-pressed": String(!!pressed), onclick: onclick }, [el("div", { class: "n", text: String(n) }), el("div", { class: "l", text: label })]);
-    }
-    ST.forEach(function (s) { box.appendChild(stat(s, cnt[s] || 0, s, function () { S.filter = S.filter === s ? "" : s; renderAll(); }, S.filter === s)); });
+    var box = $("stats"); box.textContent = "";
+    var list = nowList(), cnt = { "Apply now": 0, "Engage now": 0 };
+    list.forEach(function (c) { cnt[c.status] = (cnt[c.status] || 0) + 1; });
+    var newRoles = list.reduce(function (a, c) { return a + c.jobs.filter(function (j) { return j.new; }).length; }, 0);
+    [["Apply now", "Apply now: target role open"], ["Engage now", "Engage now: UK sales team forming"]].forEach(function (x) {
+      box.appendChild(el("button", { class: "stat " + CLS[x[0]], type: "button", "aria-pressed": String(S.nFilter === x[0]),
+        onclick: function () { S.nFilter = S.nFilter === x[0] ? "" : x[0]; renderNow(); } }, [el("div", { class: "n", text: String(cnt[x[0]] || 0) }), el("div", { class: "l", text: x[1] })]));
+    });
     box.appendChild(el("div", { class: "stat", style: "cursor:default;border-top-color:var(--accent)" }, [el("div", { class: "n", text: String(newRoles) }), el("div", { class: "l", text: "New UK sales roles since last scan" })]));
-    box.appendChild(el("div", { class: "stat", style: "cursor:default" }, [el("div", { class: "n", text: String(S.data.spotted.length) }), el("div", { class: "l", text: "Newly spotted from news" })]));
   }
-
   function jobList(c, limit) {
     var jobs = c.jobs.slice(0, limit || 99);
     if (!jobs.length) return null;
     return el("ul", { class: "jobs" }, jobs.map(function (j) {
-      return el("li", null, [link(j.url, j.title), j.new ? el("span", { class: "pill new", text: "NEW" }) : null, " ", el("small", { text: j.location + (j.pay ? " · " + j.pay : "") }),
+      return el("li", null, [link(j.url, j.title), j.new ? el("span", { class: "pill new", text: "NEW" }) : null, " ",
+        el("small", { text: [j.location, j.pay, j.first_seen ? "seen " + ageText(j.first_seen) : ""].filter(Boolean).join(" · ") }),
         j.flags.length ? el("div", { class: "flag", text: j.flags.join("; ") }) : null]);
     }));
   }
-
-  function renderCards() {
+  function renderNow() {
+    renderStats();
     var box = $("cards"); box.textContent = "";
-    var list = S.data.companies.filter(function (c) { return c.status !== "Watch" && (mine[key(c)] || {}).status !== "Not interested"; });
-    if (S.filter === "Watch") list = []; else if (S.filter) list = list.filter(function (c) { return c.status === S.filter; });
-    if (!list.length) { box.appendChild(el("p", { class: "muted", text: "Nothing to act on in this view." })); return; }
+    var q = S.nQ.trim().toLowerCase();
+    var list = nowList().filter(function (c) {
+      var m = (mine[key(c.name)] || {}).status || "";
+      if (S.nHide && m === "Not interested") return false;
+      if (S.nFilter && c.status !== S.nFilter) return false;
+      if (S.nSector && c.sector !== S.nSector) return false;
+      if (S.nMine === "none" && m) return false;
+      if (S.nMine && S.nMine !== "none" && m !== S.nMine) return false;
+      if (q && [c.name, c.signal, c.note, c.why_now, c.hiring].map(str).join(" ").toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    });
+    if (!list.length) { box.appendChild(el("p", { class: "muted", text: "Nothing matches. Check Pipeline for earlier signals." })); return; }
     list.forEach(function (c) {
-      box.appendChild(el("article", { class: "card " + cls(c) }, [
+      box.appendChild(el("article", { class: "card " + (CLS[c.status] || "st-watch") }, [
         el("div", { class: "card-top" }, [
           el("div", null, [el("h3", { text: c.name }), el("p", { class: "sub", text: c.sector + (c.note ? " · " + c.note : "") })]),
           el("div", { class: "ring", style: "--p:" + Math.max(0, Math.min(100, c.score)) }, [el("b", { text: String(c.score) })])
         ]),
-        el("div", null, [el("span", { class: "pill", text: c.status }), " ", el("span", { class: "sub", text: c.hiring })]),
-        c.signal ? el("p", { class: "why", text: c.signal }) : null,
+        el("div", null, [el("span", { class: "pill", text: c.status })]),
+        el("p", { class: "why-now", text: c.why_now || c.hiring }),
+        c.signal ? el("p", { class: "why" }, [c.signal, c.signal_date ? el("span", { class: "age", text: " · " + ageText(c.signal_date) }) : null]) : null,
         jobList(c, 4),
-        el("div", { class: "row" }, [el("label", { class: "mine" }, ["Your status", mineControl(c)]), c.board ? link(c.board, "Job board") : null, c.source ? link(c.source, "Source") : null])
+        el("div", { class: "row" }, [el("label", { class: "mine" }, ["Your status", mineControl(c.name)]), c.board ? link(c.board, "Job board") : null, c.source ? link(c.source, "Source") : null]),
+        noteBox(c.name)
       ]));
     });
   }
 
-  function renderSpotted() {
-    var sec = $("spot-sec"), box = $("spotted"); box.textContent = "";
-    var list = S.data.spotted; sec.hidden = !list.length;
-    list.forEach(function (n) {
-      box.appendChild(el("div", { class: "sp" }, [
-        el("div", { class: "num", text: String(n.score) }),
-        el("div", null, [el("b", { text: n.name }), " ", el("span", { class: "sub", text: n.sector + " · " + n.kind }),
-          n.tracked ? el("span", { class: "pill st-apply", style: "margin-left:6px", text: "now tracked" }) : null,
-          n.covenant ? el("span", { class: "pill st-engage", style: "margin-left:6px", text: "check covenant" }) : null]),
-        link(n.link, n.title)
+  /* ---------- pipeline ---------- */
+  function pipeGroups() {
+    var raw = S.data.pipeline || [];
+    var maxDays = +PF.days, min = +PF.min, q = PF.q.trim().toLowerCase();
+    var groups = {}, order = [];
+    raw.forEach(function (p) {
+      var k = key(p.company);
+      if (!groups[k]) { groups[k] = []; order.push(k); }
+      groups[k].push(p);
+    });
+    var out = [];
+    order.forEach(function (k) {
+      var items = groups[k].filter(function (p) {
+        var d = daysSince(p.date);
+        if (maxDays && (d == null || d > maxDays)) return false;
+        if (PF.kinds.indexOf(kindOf(p.kind)) < 0) return false;
+        return true;
+      });
+      if (!items.length) return;
+      var top = items[0], best = Math.max.apply(null, items.map(function (p) { return +p.score || 0; }));
+      var m = (mine[k] || {}).status || "";
+      if (best < min) return;
+      if (PF.sector && top.sector !== PF.sector) return;
+      if (PF.tracked && !groups[k].some(function (p) { return p.tracked; })) return;
+      if (!PF.cov && items.some(function (p) { return p.covenant; })) return;
+      if (m === "Not interested") return;
+      if (q && items.map(function (p) { return [p.company, p.title].join(" "); }).join(" ").toLowerCase().indexOf(q) < 0) return;
+      out.push({ key: k, top: top, items: items, best: best, tracked: groups[k].some(function (p) { return p.tracked; }) });
+    });
+    return out;
+  }
+  function renderPipe() {
+    var body = $("p-rows"); body.textContent = "";
+    var list = pipeGroups();
+    $("cnt-pipe").textContent = String(list.length);
+    $("p-foot").textContent = list.length + " companies shown. New signals are added each weekday and kept for about a year.";
+    if (!list.length) { body.appendChild(el("tr", null, [el("td", { colspan: "7", class: "empty", text: "No signals match these filters. Widen the timeline or lower the min score." })])); return; }
+    list.forEach(function (g) {
+      var p = g.top, open = !!S.open[g.key];
+      var co = el("td", { class: "co" }, [g.top.company, g.tracked ? el("small", { text: "tracked" }) : null]);
+      var sig = el("td", null, [el("span", { class: "kind k-" + kindOf(p.kind), text: kindLabel(kindOf(p.kind)) }), " ", link(p.link, p.title || "(no headline)"),
+        g.items.length > 1 ? el("div", null, [el("button", { class: "more", type: "button", onclick: function () { S.open[g.key] = !open; renderPipe(); }, text: open ? "Hide other signals" : "+" + (g.items.length - 1) + " more signals" })]) : null]);
+      body.appendChild(el("tr", null, [co, sig,
+        el("td", { class: "age", text: ageText(p.date) }),
+        el("td", { class: "num", text: String(g.best) }),
+        el("td", { text: p.sector }),
+        el("td", null, [p.board ? link(p.board, p.hiring || "Job board") : el("span", { class: "muted", text: p.hiring || "Not watched" })]),
+        el("td", null, [mineControl(p.company)])
       ]));
+      if (open) g.items.slice(1).forEach(function (x) {
+        body.appendChild(el("tr", { class: "subrow" }, [el("td"), el("td", null, [el("span", { class: "kind k-" + kindOf(x.kind), text: kindLabel(kindOf(x.kind)) }), " ", link(x.link, x.title)]),
+          el("td", { class: "age", text: ageText(x.date) }), el("td", { class: "num", text: String(x.score) }), el("td"), el("td"), el("td")]));
+      });
+    });
+  }
+  function renderKindChips() {
+    var box = $("p-kinds"); box.textContent = "";
+    KINDS.forEach(function (k) {
+      var on = PF.kinds.indexOf(k[0]) >= 0;
+      box.appendChild(el("button", { class: "chipb", type: "button", "aria-pressed": String(on), text: k[1], onclick: function () {
+        if (on) PF.kinds = PF.kinds.filter(function (x) { return x !== k[0]; }); else PF.kinds = PF.kinds.concat([k[0]]);
+        savePF(); renderKindChips(); renderPipe();
+      } }));
     });
   }
 
-  function detail(c) {
-    var p = c.parts || {}; var m = mine[key(c)] || {};
-    var note = el("textarea", { "aria-label": "Your note on " + c.name, placeholder: "Your note (who you contacted, what they said)" });
-    note.value = str(m.note);
-    note.addEventListener("input", function () { var k = key(c); mine[k] = Object.assign({}, mine[k], { note: note.value }); saveMine(); });
-    note.addEventListener("click", function (e) { e.stopPropagation(); });
-    var jobs = jobList(c);
-    var dg = el("div", { class: "dg" }, [
-      el("div", null, [el("h4", { text: "Signal" }), el("p", { text: c.signal || "No recent signal recorded." }), c.signal_date ? el("p", { class: "muted", text: c.signal_date }) : null, c.source ? el("p", null, [link(c.source, "Source")]) : null]),
-      el("div", null, [el("h4", { text: "UK sales roles" }), jobs || el("p", { class: "muted", text: "None open right now." }), c.board ? el("p", { style: "margin-top:6px" }, [link(c.board, (c.board_kind || "Job") + " board"), c.board_verified ? "" : " (guessed, check it's the right company)"]) : el("p", { class: "muted", text: "No job board found. Add one in config.yaml." })]),
-      el("div", null, [el("h4", { text: "Score breakdown" }), el("div", { class: "parts" }, [["Team", p.team, 25], ["Pay", p.pay, 20], ["Industry", p.industry, 20], ["Timing", p.timing, 25], ["Path", p.path, 10]].map(function (x) { return el("span", null, [x[0] + " ", el("b", { class: "num", text: String(x[1] == null ? "–" : x[1]) }), "/" + x[2]]); })), c.auto ? el("p", { class: "muted", style: "margin-top:6px", text: "Found automatically from the news." }) : null]),
-      el("div", { style: "grid-column:1/-1" }, [el("h4", { text: "Your note" }), note])
-    ]);
-    return el("tr", { class: "d" }, [el("td", { colspan: "7" }, [dg])]);
-  }
-
-  function renderTable() {
-    var body = $("rows"); body.textContent = ""; var list = visible();
-    if (!list.length) { body.appendChild(el("tr", null, [el("td", { colspan: "7", class: "empty", text: "No companies match these filters." })])); return; }
-    list.forEach(function (c, i) {
-      var open = !!S.open[key(c)];
-      var tr = el("tr", { class: "m " + cls(c), tabindex: "0", "aria-expanded": String(open) }, [
-        el("td", { class: "num", text: String(i + 1) }),
-        el("td", { class: "co" }, [c.name, el("small", { text: c.note || c.signal })]),
-        el("td", { text: c.sector }),
-        el("td", null, [el("span", { class: "bar" }, [el("span", { class: "num", text: String(c.score) }), el("span", { class: "track" }, [el("span", { class: "fill", style: "display:block;width:" + Math.max(0, Math.min(100, c.score)) + "%" })])])]),
-        el("td", null, [c.hiring, c.jobs.some(function (j) { return j.new; }) ? el("span", { class: "pill new", text: "NEW" }) : null]),
-        el("td", null, [el("span", { class: "pill", text: c.status })]),
-        el("td", null, [mineControl(c)])
-      ]);
-      function toggle() { S.open[key(c)] = !S.open[key(c)]; renderTable(); }
-      tr.addEventListener("click", toggle);
-      tr.addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && e.target === tr) { e.preventDefault(); toggle(); } });
-      body.appendChild(tr);
-      if (open) body.appendChild(detail(c));
+  function fillSectors() {
+    var secs = {};
+    S.data.companies.forEach(function (c) { secs[c.sector] = 1; });
+    (S.data.pipeline || []).forEach(function (p) { secs[p.sector] = 1; });
+    var list = Object.keys(secs).filter(Boolean).sort();
+    [["n-sector", S.nSector], ["p-sector", PF.sector]].forEach(function (x) {
+      var sel = $(x[0]); sel.textContent = ""; sel.appendChild(el("option", { value: "", text: "All sectors" }));
+      list.forEach(function (s) { sel.appendChild(el("option", { value: s, text: s })); });
+      sel.value = list.indexOf(x[1]) >= 0 ? x[1] : "";
     });
   }
 
-  function renderSectors() {
-    var sel = $("sector"), cur = sel.value;
-    var secs = Array.from(new Set(S.data.companies.map(function (c) { return c.sector; }))).sort();
-    sel.textContent = ""; sel.appendChild(el("option", { value: "", text: "All sectors" }));
-    secs.forEach(function (s) { sel.appendChild(el("option", { value: s, text: s })); });
-    sel.value = secs.indexOf(cur) >= 0 ? cur : "";
+  function renderStamp() {
+    var d = S.data, s = $("stamp");
+    var old = Date.now() - Date.parse(d.generated_at) > 3 * 86400000;
+    s.textContent = "Scanned " + ago(d.generated_at);
+    s.className = "stamp" + (old ? " stale" : "");
+    $("cnt-now").textContent = String(nowList().length);
+    if (d.now_window_days) $("now-intro").textContent = "Companies with evidence of a UK sales build right now: an SDR/BDR role open, a UK AE, SDR manager or sales leader being hired, or a UK sales leader hire or London build-out in the last " + d.now_window_days + " days. Funding on its own is in Pipeline.";
   }
+  function renderAll() { if (!S.data) return; renderStamp(); renderNow(); renderPipe(); }
 
-  function renderRoundups() {
-    var r = S.data.roundups || []; $("roundups").hidden = !r.length; var ul = $("rl"); ul.textContent = "";
-    r.forEach(function (x) { ul.appendChild(el("li", null, [link(x.link, x.title)])); });
+  /* ---------- filters wiring ---------- */
+  $("n-sector").addEventListener("change", function (e) { S.nSector = e.target.value; renderNow(); });
+  $("n-mine").addEventListener("change", function (e) { S.nMine = e.target.value; renderNow(); });
+  $("n-q").addEventListener("input", function (e) { S.nQ = e.target.value; renderNow(); });
+  $("n-hide").addEventListener("change", function (e) { S.nHide = e.target.checked; renderNow(); });
+  function pfBind(id, field, prop) {
+    var n = $(id); if (prop === "checked") n.checked = !!PF[field]; else n.value = PF[field];
+    n.addEventListener(prop === "checked" ? "change" : (n.tagName === "INPUT" ? "input" : "change"), function () { PF[field] = prop === "checked" ? n.checked : n.value; savePF(); renderPipe(); });
   }
+  pfBind("p-days", "days"); pfBind("p-min", "min"); pfBind("p-q", "q"); pfBind("p-tracked", "tracked", "checked"); pfBind("p-cov", "cov", "checked");
+  $("p-sector").addEventListener("change", function (e) { PF.sector = e.target.value; savePF(); renderPipe(); });
+  renderKindChips();
 
-  function renderAll() { if (!S.data) return; renderStamp(); renderStats(); renderCards(); renderSpotted(); renderTable(); renderRoundups(); }
-
+  /* ---------- data ---------- */
   function load(quiet) {
-    return fetch("data.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
-      if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
-    }).then(function (d) {
-      var changed = !S.data || S.data.generated_at !== d.generated_at;
-      S.data = d; renderSectors(); renderAll();
-      if (!quiet) banner("");
-      return changed;
-    }).catch(function () {
-      if (!S.data) banner("Couldn't load the radar data yet. If this is your first setup, run the scanner once, then press Refresh.", "bad");
-      else if (!quiet) banner("Couldn't reach the data file. Check your connection and try again.", "bad");
-      return false;
-    });
+    return fetch("data.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (d) { var changed = !S.data || S.data.generated_at !== d.generated_at; S.data = d; fillSectors(); renderAll(); if (!quiet) banner(""); return changed; })
+      .catch(function () { if (!S.data) banner("Couldn't load the radar data yet. Run the scanner once, then press Refresh.", "bad"); else if (!quiet) banner("Couldn't reach the data file. Try again.", "bad"); return false; });
   }
-
   function setBusy(btn, busy, label) { btn.disabled = busy; btn.classList.toggle("spin", busy); var l = btn.querySelector(".lbl"); if (l && label) l.textContent = label; }
-
   $("refresh").addEventListener("click", function () {
-    var b = $("refresh"); setBusy(b, true, "Refreshing"); load(false).then(function (changed) {
-      setBusy(b, false, "Refresh"); if (S.data) banner(changed ? "Updated with the latest scan." : "You already have the latest scan.", "ok"); setTimeout(function () { if (!S.scanning) banner(""); }, 3500);
-    });
+    var b = $("refresh"); setBusy(b, true, "Refreshing");
+    load(false).then(function (changed) { setBusy(b, false, "Refresh"); if (S.data) banner(changed ? "Updated with the latest scan." : "You already have the latest scan.", "ok"); setTimeout(function () { if (!S.scanning) banner(""); }, 3500); });
   });
 
   function cfg() { return { repo: (store.get("radar.repo") || "").trim(), token: (store.get("radar.token") || "").trim() }; }
-  $("settings").addEventListener("click", openSettings);
   function openSettings() { var c = cfg(); $("s-repo").value = c.repo; $("s-token").value = c.token; $("dlg").showModal(); }
+  $("settings").addEventListener("click", openSettings);
   $("dform").addEventListener("submit", function (e) {
-    var v = e.submitter && e.submitter.value;
-    if (v === "save") {
-      var repo = $("s-repo").value.trim().replace(/^https?:\/\/github\.com\//i, "").replace(/\/+$/, "");
-      store.set("radar.repo", repo); store.set("radar.token", $("s-token").value.trim());
+    if (e.submitter && e.submitter.value === "save") {
+      store.set("radar.repo", $("s-repo").value.trim().replace(/^https?:\/\/github\.com\//i, "").replace(/\/+$/, ""));
+      store.set("radar.token", $("s-token").value.trim());
       banner("Settings saved in this browser.", "ok"); setTimeout(function () { banner(""); }, 2500);
     }
   });
-
-  function openActionsAndWait(repo) {
-    var b = $("scan"); S.scanning = true; setBusy(b, true, "Waiting");
-    var before = S.data ? S.data.generated_at : "", t0 = Date.now();
-    window.open("https://github.com/" + repo + "/actions/workflows/radar.yml", "_blank", "noopener");
+  function waitForScan(btn, before, limitS, msg) {
+    var t0 = Date.now();
     (function poll() {
       var s = Math.round((Date.now() - t0) / 1000);
-      if (s > 900) { S.scanning = false; setBusy(b, false, "Scan now"); banner("No new scan yet. Press Refresh once it finishes.", "bad"); return; }
-      banner("GitHub opened in a new tab. Click the green Run workflow button there. This page updates by itself when the scan lands (" + s + "s).");
-      setTimeout(function () {
-        load(true).then(function () {
-          if (S.data && S.data.generated_at !== before) { S.scanning = false; setBusy(b, false, "Scan now"); banner("Done. Showing the fresh scan.", "ok"); setTimeout(function () { banner(""); }, 4000); }
-          else poll();
-        });
-      }, 10000);
+      if (s > limitS) { S.scanning = false; setBusy(btn, false, "Scan now"); banner("No new scan yet. Press Refresh in a minute or two.", "bad"); return; }
+      banner(msg + " (" + s + "s)");
+      setTimeout(function () { load(true).then(function () {
+        if (S.data && S.data.generated_at !== before) { S.scanning = false; setBusy(btn, false, "Scan now"); banner("Done. Showing the fresh scan.", "ok"); setTimeout(function () { banner(""); }, 4000); }
+        else poll();
+      }); }, 9000);
     })();
   }
-
   $("scan").addEventListener("click", function () {
-    var c = cfg();
+    var c = cfg(), b = $("scan");
     if (!/^[\w.-]+\/[\w.-]+$/.test(c.repo)) { openSettings(); return; }
     if (S.scanning) return;
-    if (!c.token) { openActionsAndWait(c.repo); return; }
-    S.scanning = true; var b = $("scan"); setBusy(b, true, "Scanning");
     var before = S.data ? S.data.generated_at : "";
+    S.scanning = true;
+    if (!c.token) {
+      setBusy(b, true, "Waiting");
+      window.open("https://github.com/" + c.repo + "/actions/workflows/radar.yml", "_blank", "noopener");
+      waitForScan(b, before, 900, "GitHub opened in a new tab: click Run workflow there. This page updates by itself when the scan lands.");
+      return;
+    }
+    setBusy(b, true, "Scanning");
     fetch("https://api.github.com/repos/" + c.repo + "/actions/workflows/radar.yml/dispatches", {
       method: "POST", headers: { "Authorization": "Bearer " + c.token, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
       body: JSON.stringify({ ref: "main" })
     }).then(function (r) {
-      if (r.status !== 204) {
-        var why = r.status === 401 ? "GitHub rejected the token. Open settings and paste a fresh one." : r.status === 403 || r.status === 404 ? "GitHub says no access. Check the repo name and that the token can run Actions on it." : "GitHub returned " + r.status + ".";
-        throw new Error(why);
-      }
-      var t0 = Date.now(); banner("Scan started. This usually takes 2 to 3 minutes.");
-      (function poll() {
-        var s = Math.round((Date.now() - t0) / 1000);
-        if (s > 540) { S.scanning = false; setBusy(b, false, "Scan now"); banner("Still working. Press Refresh in a minute or two.", "bad"); return; }
-        banner("Scanning… " + s + "s. The page updates itself when the results land.");
-        setTimeout(function () {
-          load(true).then(function () {
-            if (S.data && S.data.generated_at !== before) { S.scanning = false; setBusy(b, false, "Scan now"); banner("Done. Showing the fresh scan.", "ok"); setTimeout(function () { banner(""); }, 4000); }
-            else poll();
-          });
-        }, 8000);
-      })();
-    }).catch(function (e) {
-      S.scanning = false; setBusy(b, false, "Scan now");
-      banner(e && e.message && e.message.indexOf("GitHub") >= 0 ? e.message : "Couldn't reach GitHub. Check your connection.", "bad");
-    });
+      if (r.status !== 204) throw new Error(r.status === 401 ? "GitHub rejected the token. Open settings and paste a fresh one." : (r.status === 403 || r.status === 404) ? "GitHub says no access. Check the repo name and that the token can run Actions on it." : "GitHub returned " + r.status + ".");
+      waitForScan(b, before, 540, "Scan started. Usually 2 to 3 minutes; this page updates by itself.");
+    }).catch(function (e) { S.scanning = false; setBusy(b, false, "Scan now"); banner(e && e.message && e.message.indexOf("GitHub") >= 0 ? e.message : "Couldn't reach GitHub. Check your connection.", "bad"); });
   });
 
-  $("sector").addEventListener("change", function (e) { S.sector = e.target.value; renderTable(); });
-  $("mineF").addEventListener("change", function (e) { S.mine = e.target.value; renderTable(); });
-  $("q").addEventListener("input", function (e) { S.q = e.target.value; renderTable(); });
   document.addEventListener("visibilitychange", function () { if (!document.hidden && !S.scanning) load(true); });
-
+  setTab(location.hash === "#pipeline" ? "pipeline" : "now");
   load(false);
 })();
 </script>
