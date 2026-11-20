@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T21:42:38+00:00",
+ "generated_at": "2026-11-20T21:47:47+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -54,40 +54,6 @@
    "note": "Your tracker shows the BDR UK application as unconfirmed",
    "source": "",
    "auto": false
-  },
-  {
-   "name": "Tracebit",
-   "sector": "Cybersecurity",
-   "score": 72,
-   "status": "Apply now",
-   "hiring": "SDR/BDR open",
-   "parts": {
-    "team": 12,
-    "pay": 13,
-    "industry": 20,
-    "timing": 25,
-    "path": 2
-   },
-   "jobs": [
-    {
-     "title": "Founding SDR",
-     "location": "London",
-     "url": "https://jobs.ashbyhq.com/tracebit/46f46623-ba24-45f7-8684-20407f3eac1e",
-     "pay": "£50K – £60K • Offers Equity",
-     "kind": "sdr",
-     "new": false,
-     "flags": []
-    }
-   ],
-   "board": "https://jobs.ashbyhq.com/tracebit",
-   "board_kind": "ashby",
-   "board_verified": false,
-   "signal": "$20M Series A",
-   "signal_date": "2026-03-17",
-   "signal_kind": "funding",
-   "note": "",
-   "source": "",
-   "auto": true
   },
   {
    "name": "Zenity",
@@ -474,6 +440,42 @@
    "board_verified": true,
    "signal": "$30M Series A; UK GTM expansion",
    "signal_date": "2026-08-12",
+   "signal_kind": "funding",
+   "note": "",
+   "source": "",
+   "auto": true
+  },
+  {
+   "name": "Tracebit",
+   "sector": "Cybersecurity",
+   "score": 53,
+   "status": "Watch",
+   "hiring": "No UK sales roles seen",
+   "parts": {
+    "team": 12,
+    "pay": 13,
+    "industry": 20,
+    "timing": 6,
+    "path": 2
+   },
+   "jobs": [
+    {
+     "title": "Founding SDR",
+     "location": "London",
+     "url": "https://jobs.ashbyhq.com/tracebit/46f46623-ba24-45f7-8684-20407f3eac1e",
+     "pay": "£50K – £60K • Offers Equity | OTE £50K – £60K • Offers Equity | Offers Equity | OTE £50K – £60K",
+     "kind": "sdr",
+     "new": false,
+     "flags": [
+      "posted pay is OTE only, base likely under £55k"
+     ]
+    }
+   ],
+   "board": "https://jobs.ashbyhq.com/tracebit",
+   "board_kind": "ashby",
+   "board_verified": false,
+   "signal": "$20M Series A",
+   "signal_date": "2026-03-17",
    "signal_kind": "funding",
    "note": "",
    "source": "",
