@@ -183,9 +183,9 @@ dialog::backdrop { background: rgba(8,10,16,.55); }
 
 <dialog id="dlg"><form method="dialog" class="dlg" id="dform">
   <h2>Scan now settings</h2>
-  <p>The Scan now button asks GitHub to run your scanner. It needs the scanner repo name and a GitHub token. Both are stored only in this browser. Leave them empty if you only want the daily automatic scan.</p>
+  <p>Enter your scanner repo name. Scan now then opens GitHub's Run workflow page for you, and this page updates itself when the scan finishes. The token is optional: with a token, Scan now starts the scan in one click. Both are stored only in this browser.</p>
   <label>Scanner repo (owner/name)<input type="text" id="s-repo" placeholder="your-username/company-radar" autocomplete="off" spellcheck="false"></label>
-  <label>GitHub token<input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off"></label>
+  <label>GitHub token (optional)<input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off"></label>
   <div class="row" style="justify-content:flex-end">
     <button class="btn" value="cancel" type="submit">Cancel</button>
     <button class="btn primary" value="save" type="submit" id="s-save">Save</button>
@@ -399,10 +399,28 @@ dialog::backdrop { background: rgba(8,10,16,.55); }
     }
   });
 
+  function openActionsAndWait(repo) {
+    var b = $("scan"); S.scanning = true; setBusy(b, true, "Waiting");
+    var before = S.data ? S.data.generated_at : "", t0 = Date.now();
+    window.open("https://github.com/" + repo + "/actions/workflows/radar.yml", "_blank", "noopener");
+    (function poll() {
+      var s = Math.round((Date.now() - t0) / 1000);
+      if (s > 900) { S.scanning = false; setBusy(b, false, "Scan now"); banner("No new scan yet. Press Refresh once it finishes.", "bad"); return; }
+      banner("GitHub opened in a new tab. Click the green Run workflow button there. This page updates by itself when the scan lands (" + s + "s).");
+      setTimeout(function () {
+        load(true).then(function () {
+          if (S.data && S.data.generated_at !== before) { S.scanning = false; setBusy(b, false, "Scan now"); banner("Done. Showing the fresh scan.", "ok"); setTimeout(function () { banner(""); }, 4000); }
+          else poll();
+        });
+      }, 10000);
+    })();
+  }
+
   $("scan").addEventListener("click", function () {
     var c = cfg();
-    if (!/^[\w.-]+\/[\w.-]+$/.test(c.repo) || !c.token) { openSettings(); return; }
+    if (!/^[\w.-]+\/[\w.-]+$/.test(c.repo)) { openSettings(); return; }
     if (S.scanning) return;
+    if (!c.token) { openActionsAndWait(c.repo); return; }
     S.scanning = true; var b = $("scan"); setBusy(b, true, "Scanning");
     var before = S.data ? S.data.generated_at : "";
     fetch("https://api.github.com/repos/" + c.repo + "/actions/workflows/radar.yml/dispatches", {
