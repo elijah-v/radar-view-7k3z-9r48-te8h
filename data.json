@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:18:41+00:00",
+ "generated_at": "2026-11-21T16:06:14+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -647,10 +647,5 @@
   }
  ],
  "now_window_days": 120,
- "roundups": [
-  {
-   "title": "UK Startup Funding Report: £439.0m raised across Biotech, Healthtech and Fintech (9–13 Nov 2026). - Startupmag",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPNk5YeXJ4R0xMdG8yTWNBTkY0RmVoREUwamRIcmpqM0RMV0JhTEJtaUZoSHpINmQzQ0Zyc2lLVG9QMmtqQjJqRVRwTGk1N0lkQ0VGYzR5ZVhiblhJOFRQcmxTaVFFTkwtWFVmeHJIMUFBa3pJUXZ4aFRZb3VYalE?oc=5"
-  }
- ]
+ "roundups": []
 }
