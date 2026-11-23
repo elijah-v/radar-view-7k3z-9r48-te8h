@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:49:02+00:00",
+ "generated_at": "2026-11-23T18:29:51+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -513,8 +513,84 @@
    "signal_age": 251
   }
  ],
- "spotted": [],
+ "spotted": [
+  {
+   "name": "Agon",
+   "score": 65,
+   "kind": "funding",
+   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
+   "published": "2026-11-23",
+   "source": "EU-Startups",
+   "sector": "Enterprise AI & data",
+   "covenant": false,
+   "tracked": true
+  },
+  {
+   "name": "BTIG",
+   "score": 63,
+   "kind": "leader",
+   "title": "U.S. Bancorp | BTIG Appoints Mark Hankinson Head of EMEA Capital Markets - citybiz",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM5S0pFUnJDZVJ3OF92cjk0UUVxUllKTmVPNEtFZXFCeEtqU2ZTaVR6R3FKbUF6OUhZOFhvdHNLY3R2VEQ2QXdEaUZiSmd6LWVvdzhRb2RXXzdLSEVFQXg4a29oV05SUW9ydEhhV19LSW5RVkxzVFNaemJ3bW8zTzV6WmV6OEFUUFVybWhiZExFRFQxaXJmeG51YVUwR2FjQ0hZVFFmdlE0Ui1u?oc=5",
+   "published": "2026-11-23",
+   "source": "citybiz",
+   "sector": "Dev tools",
+   "covenant": false,
+   "tracked": true
+  },
+  {
+   "name": "Savills",
+   "score": 54,
+   "kind": "leader",
+   "title": "Savills Names Bryan Ezell Global Head of Digital Experience and Julia Moore Head of EMEA Client Solutions - citybiz",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS1g1VWROVFIzTHJabmFkbS1UZUhLVXRLYjVfUDBWbEJxTmhtVzdzalRwNGtBeGtXdFMwTGtGTmxFb0dOeXFyTzZYaXBMbXhOM2trOFZZbVRfTExyQVVyTXY3ZW1TZWh0dHpxU2xHUC1xTzI3WGhfTUZvZUpHWWFzb2IxMzlUZ0dudk9WUUJhUExYMFlManFEeHlISkhJcmpUWWxrMkdIYllranRIVW01MTJ2cTNKRHpTQUZPbVBqWERXZ2RrYWlYOFE0Z29zdDAyNnZ2d3gwckpBS21q?oc=5",
+   "published": "2026-11-23",
+   "source": "citybiz",
+   "sector": "Other",
+   "covenant": false,
+   "tracked": false
+  }
+ ],
  "pipeline": [
+  {
+   "company": "Agon",
+   "kind": "funding",
+   "date": "2026-11-23",
+   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
+   "score": 65,
+   "sector": "Enterprise AI & data",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
+  {
+   "company": "BTIG",
+   "kind": "leader",
+   "date": "2026-11-23",
+   "title": "U.S. Bancorp | BTIG Appoints Mark Hankinson Head of EMEA Capital Markets - citybiz",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM5S0pFUnJDZVJ3OF92cjk0UUVxUllKTmVPNEtFZXFCeEtqU2ZTaVR6R3FKbUF6OUhZOFhvdHNLY3R2VEQ2QXdEaUZiSmd6LWVvdzhRb2RXXzdLSEVFQXg4a29oV05SUW9ydEhhV19LSW5RVkxzVFNaemJ3bW8zTzV6WmV6OEFUUFVybWhiZExFRFQxaXJmeG51YVUwR2FjQ0hZVFFmdlE0Ui1u?oc=5",
+   "score": 63,
+   "sector": "Dev tools",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
+  {
+   "company": "Savills",
+   "kind": "leader",
+   "date": "2026-11-23",
+   "title": "Savills Names Bryan Ezell Global Head of Digital Experience and Julia Moore Head of EMEA Client Solutions - citybiz",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS1g1VWROVFIzTHJabmFkbS1UZUhLVXRLYjVfUDBWbEJxTmhtVzdzalRwNGtBeGtXdFMwTGtGTmxFb0dOeXFyTzZYaXBMbXhOM2trOFZZbVRfTExyQVVyTXY3ZW1TZWh0dHpxU2xHUC1xTzI3WGhfTUZvZUpHWWFzb2IxMzlUZ0dudk9WUUJhUExYMFlManFEeHlISkhJcmpUWWxrMkdIYllranRIVW01MTJ2cTNKRHpTQUZPbVBqWERXZ2RrYWlYOFE0Z29zdDAyNnZ2d3gwckpBS21q?oc=5",
+   "score": 54,
+   "sector": "Other",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
   {
    "company": "Arrive",
    "kind": "expansion",
