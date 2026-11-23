@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T21:36:29+00:00",
+ "generated_at": "2026-11-23T10:49:02+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -59,7 +59,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "UK SDR/BDR role open",
-   "signal_age": 51
+   "signal_age": 53
   },
   {
    "name": "Zenity",
@@ -85,8 +85,8 @@
    "source": "",
    "auto": false,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 6 days ago",
-   "signal_age": 6
+   "why_now": "UK / EMEA sales leader hire, 8 days ago",
+   "signal_age": 8
   },
   {
    "name": "incident.io",
@@ -112,8 +112,8 @@
    "source": "",
    "auto": true,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 37 days ago",
-   "signal_age": 37
+   "why_now": "UK / EMEA sales leader hire, 39 days ago",
+   "signal_age": 39
   },
   {
    "name": "CodeRabbit",
@@ -151,7 +151,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 101
+   "signal_age": 103
   },
   {
    "name": "Geordie AI",
@@ -189,7 +189,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 177
+   "signal_age": 179
   },
   {
    "name": "Valarian",
@@ -227,7 +227,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 131
+   "signal_age": 133
   },
   {
    "name": "Cyera",
@@ -254,7 +254,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 135
+   "signal_age": 137
   },
   {
    "name": "Arrakis",
@@ -281,7 +281,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 120
+   "signal_age": 122
   },
   {
    "name": "Fractile",
@@ -308,7 +308,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 4
+   "signal_age": 6
   },
   {
    "name": "Gradient Labs",
@@ -335,7 +335,7 @@
    "auto": false,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 173
+   "signal_age": 175
   },
   {
    "name": "Ankar",
@@ -362,7 +362,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 339
+   "signal_age": 341
   },
   {
    "name": "Model ML",
@@ -389,7 +389,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 4
+   "signal_age": 6
   },
   {
    "name": "Arrive",
@@ -416,7 +416,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 3
+   "signal_age": 5
   },
   {
    "name": "CloudBees",
@@ -443,7 +443,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 9
+   "signal_age": 11
   },
   {
    "name": "Mindgard",
@@ -470,7 +470,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 101
+   "signal_age": 103
   },
   {
    "name": "Tracebit",
@@ -510,7 +510,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 249
+   "signal_age": 251
   }
  ],
  "spotted": [],
@@ -647,10 +647,5 @@
   }
  ],
  "now_window_days": 120,
- "roundups": [
-  {
-   "title": "UK Startup Funding Report: £439.0m raised across Biotech, Healthtech and Fintech (9–13 Nov 2026). - Startupmag",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPNk5YeXJ4R0xMdG8yTWNBTkY0RmVoREUwamRIcmpqM0RMV0JhTEJtaUZoSHpINmQzQ0Zyc2lLVG9QMmtqQjJqRVRwTGk1N0lkQ0VGYzR5ZVhiblhJOFRQcmxTaVFFTkwtWFVmeHJIMUFBa3pJUXZ4aFRZb3VYalE?oc=5"
-  }
- ]
+ "roundups": []
 }
