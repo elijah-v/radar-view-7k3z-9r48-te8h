@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T18:29:51+00:00",
+ "generated_at": "2026-11-24T08:44:09+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -59,7 +59,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "UK SDR/BDR role open",
-   "signal_age": 53
+   "signal_age": 54
   },
   {
    "name": "Zenity",
@@ -85,8 +85,8 @@
    "source": "",
    "auto": false,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 8 days ago",
-   "signal_age": 8
+   "why_now": "UK / EMEA sales leader hire, 9 days ago",
+   "signal_age": 9
   },
   {
    "name": "incident.io",
@@ -112,8 +112,8 @@
    "source": "",
    "auto": true,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 39 days ago",
-   "signal_age": 39
+   "why_now": "UK / EMEA sales leader hire, 40 days ago",
+   "signal_age": 40
   },
   {
    "name": "CodeRabbit",
@@ -151,7 +151,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 103
+   "signal_age": 104
   },
   {
    "name": "Geordie AI",
@@ -189,7 +189,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 179
+   "signal_age": 180
   },
   {
    "name": "Valarian",
@@ -227,7 +227,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 133
+   "signal_age": 134
   },
   {
    "name": "Cyera",
@@ -254,7 +254,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 137
+   "signal_age": 138
   },
   {
    "name": "Arrakis",
@@ -281,7 +281,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 122
+   "signal_age": 123
   },
   {
    "name": "Fractile",
@@ -308,7 +308,34 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 6
+   "signal_age": 7
+  },
+  {
+   "name": "Agon",
+   "sector": "Enterprise AI & data",
+   "score": 65,
+   "status": "Watch",
+   "hiring": "No UK sales roles seen",
+   "parts": {
+    "team": 8,
+    "pay": 20,
+    "industry": 17,
+    "timing": 18,
+    "path": 2
+   },
+   "jobs": [],
+   "board": "https://jobs.ashbyhq.com/agon",
+   "board_kind": "ashby",
+   "board_verified": false,
+   "signal": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - ",
+   "signal_date": "2026-11-23",
+   "signal_kind": "funding",
+   "note": "",
+   "source": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 1
   },
   {
    "name": "Gradient Labs",
@@ -335,7 +362,7 @@
    "auto": false,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 175
+   "signal_age": 176
   },
   {
    "name": "Ankar",
@@ -362,7 +389,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 341
+   "signal_age": 342
   },
   {
    "name": "Model ML",
@@ -389,7 +416,34 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 6
+   "signal_age": 7
+  },
+  {
+   "name": "BTIG",
+   "sector": "Dev tools",
+   "score": 63,
+   "status": "Watch",
+   "hiring": "Job board not found",
+   "parts": {
+    "team": 8,
+    "pay": 13,
+    "industry": 17,
+    "timing": 23,
+    "path": 2
+   },
+   "jobs": [],
+   "board": "",
+   "board_kind": "none",
+   "board_verified": false,
+   "signal": "U.S. Bancorp | BTIG Appoints Mark Hankinson Head of EMEA Capital Markets - citybiz",
+   "signal_date": "2026-11-23",
+   "signal_kind": "leader",
+   "note": "",
+   "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM5S0pFUnJDZVJ3OF92cjk0UUVxUllKTmVPNEtFZXFCeEtqU2ZTaVR6R3FKbUF6OUhZOFhvdHNLY3R2VEQ2QXdEaUZiSmd6LWVvdzhRb2RXXzdLSEVFQXg4a29oV05SUW9ydEhhV19LSW5RVkxzVFNaemJ3bW8zTzV6WmV6OEFUUFVybWhiZExFRFQxaXJmeG51YVUwR2FjQ0hZVFFmdlE0Ui1u?oc=5",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 1
   },
   {
    "name": "Arrive",
@@ -416,7 +470,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 5
+   "signal_age": 6
   },
   {
    "name": "CloudBees",
@@ -443,7 +497,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 11
+   "signal_age": 12
   },
   {
    "name": "Mindgard",
@@ -470,7 +524,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 103
+   "signal_age": 104
   },
   {
    "name": "Tracebit",
@@ -510,42 +564,18 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 251
+   "signal_age": 252
   }
  ],
  "spotted": [
   {
-   "name": "Agon",
-   "score": 65,
-   "kind": "funding",
-   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - EU-Startups",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
-   "published": "2026-11-23",
-   "source": "EU-Startups",
-   "sector": "Enterprise AI & data",
-   "covenant": false,
-   "tracked": true
-  },
-  {
-   "name": "BTIG",
-   "score": 63,
-   "kind": "leader",
-   "title": "U.S. Bancorp | BTIG Appoints Mark Hankinson Head of EMEA Capital Markets - citybiz",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM5S0pFUnJDZVJ3OF92cjk0UUVxUllKTmVPNEtFZXFCeEtqU2ZTaVR6R3FKbUF6OUhZOFhvdHNLY3R2VEQ2QXdEaUZiSmd6LWVvdzhRb2RXXzdLSEVFQXg4a29oV05SUW9ydEhhV19LSW5RVkxzVFNaemJ3bW8zTzV6WmV6OEFUUFVybWhiZExFRFQxaXJmeG51YVUwR2FjQ0hZVFFmdlE0Ui1u?oc=5",
-   "published": "2026-11-23",
-   "source": "citybiz",
-   "sector": "Dev tools",
-   "covenant": false,
-   "tracked": true
-  },
-  {
-   "name": "Savills",
-   "score": 54,
-   "kind": "leader",
-   "title": "Savills Names Bryan Ezell Global Head of Digital Experience and Julia Moore Head of EMEA Client Solutions - citybiz",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS1g1VWROVFIzTHJabmFkbS1UZUhLVXRLYjVfUDBWbEJxTmhtVzdzalRwNGtBeGtXdFMwTGtGTmxFb0dOeXFyTzZYaXBMbXhOM2trOFZZbVRfTExyQVVyTXY3ZW1TZWh0dHpxU2xHUC1xTzI3WGhfTUZvZUpHWWFzb2IxMzlUZ0dudk9WUUJhUExYMFlManFEeHlISkhJcmpUWWxrMkdIYllranRIVW01MTJ2cTNKRHpTQUZPbVBqWERXZ2RrYWlYOFE0Z29zdDAyNnZ2d3gwckpBS21q?oc=5",
-   "published": "2026-11-23",
-   "source": "citybiz",
+   "name": "Irwell",
+   "score": 51,
+   "kind": "expansion",
+   "title": "Irwell announces new London office and record GWP - Insurance Today",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KT0JoUEZFUVVKSHpuWW9OMzdSMHZGR29ubDFKa2c4ZkF2UUtlNl9UM3RickhWdjJHWUtqcWE2cEZrZmNBeko5ckdOOWlVR2xFZFo3OW93UXp5TUoy?oc=5",
+   "published": "2026-11-12",
+   "source": "Insurance Today",
    "sector": "Other",
    "covenant": false,
    "tracked": false
@@ -556,13 +586,13 @@
    "company": "Agon",
    "kind": "funding",
    "date": "2026-11-23",
-   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - EU-Startups",
+   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - ",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
    "score": 65,
    "sector": "Enterprise AI & data",
-   "tracked": false,
-   "hiring": "",
-   "board": "",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.ashbyhq.com/agon",
    "covenant": false
   },
   {
@@ -573,7 +603,20 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM5S0pFUnJDZVJ3OF92cjk0UUVxUllKTmVPNEtFZXFCeEtqU2ZTaVR6R3FKbUF6OUhZOFhvdHNLY3R2VEQ2QXdEaUZiSmd6LWVvdzhRb2RXXzdLSEVFQXg4a29oV05SUW9ydEhhV19LSW5RVkxzVFNaemJ3bW8zTzV6WmV6OEFUUFVybWhiZExFRFQxaXJmeG51YVUwR2FjQ0hZVFFmdlE0Ui1u?oc=5",
    "score": 63,
    "sector": "Dev tools",
-   "tracked": false,
+   "tracked": true,
+   "hiring": "Job board not found",
+   "board": "",
+   "covenant": false
+  },
+  {
+   "company": "Agon",
+   "kind": "funding",
+   "date": "2026-11-23",
+   "title": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSVk4U2F6ZURISnU5RHJXRnBsRk14WGJvUHJXNU9OeWdyOG1RZjBneXVZaGI5TWF6MEdHaE9IQUkzNXRITnkyekhmbzVyTW5mUHdOR0hQclhYSnNNbGxhTWZCYmE4RFB2S3p4VGJqLWN5UHl6b2VKX3FmbHRDc0h5OVMyVnFzUWQ4bUVVQU0zZjJUVG9aT0M3ekwzbEgxWThrNGxlSzFfajRKWDlQbUMzWmYwRDZSZW9fTXowbUVlSnJNcU41cFp6Wkw3MEJVZW1iZVpxMmVLeVo5NXkxdGlSaGd2SGM0MlRZ?oc=5",
+   "score": 65,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
    "hiring": "",
    "board": "",
    "covenant": false
@@ -641,6 +684,19 @@
    "tracked": true,
    "hiring": "No UK sales roles seen",
    "board": "https://jobs.ashbyhq.com/cloudbees",
+   "covenant": false
+  },
+  {
+   "company": "Irwell",
+   "kind": "expansion",
+   "date": "2026-11-12",
+   "title": "Irwell announces new London office and record GWP - Insurance Today",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KT0JoUEZFUVVKSHpuWW9OMzdSMHZGR29ubDFKa2c4ZkF2UUtlNl9UM3RickhWdjJHWUtqcWE2cEZrZmNBeko5ckdOOWlVR2xFZFo3OW93UXp5TUoy?oc=5",
+   "score": 51,
+   "sector": "Other",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
    "covenant": false
   },
   {
