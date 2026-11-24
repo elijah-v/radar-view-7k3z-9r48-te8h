@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T08:44:09+00:00",
+ "generated_at": "2026-11-24T17:57:57+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -131,7 +131,7 @@
    "jobs": [
     {
      "title": "EMEA Account Executive - Emerging Enterprise - London",
-     "location": "UK / London / Remote",
+     "location": "UK / Remote",
      "url": "https://jobs.ashbyhq.com/coderabbit/001a373e-24ef-48a4-89ad-f80de01b0086",
      "pay": "",
      "kind": "ae",
@@ -569,19 +569,32 @@
  ],
  "spotted": [
   {
-   "name": "Irwell",
-   "score": 51,
-   "kind": "expansion",
-   "title": "Irwell announces new London office and record GWP - Insurance Today",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KT0JoUEZFUVVKSHpuWW9OMzdSMHZGR29ubDFKa2c4ZkF2UUtlNl9UM3RickhWdjJHWUtqcWE2cEZrZmNBeko5ckdOOWlVR2xFZFo3OW93UXp5TUoy?oc=5",
-   "published": "2026-11-12",
-   "source": "Insurance Today",
+   "name": "Franklin Templeton",
+   "score": 54,
+   "kind": "leader",
+   "title": "Franklin Templeton appoints Head of ETF, EMEA & Americas - Funds Europe",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzI3dTJ4b3pUMmhKdFFucGNqUU5CVm1DbjZHdG1jYS10RGEtbUk1X3RiUkU5cUJocFRtT28xVE54TGducko2elRmaUU1ejhuVF8tVVB6QzN5V2NEYlA4MlRBWUNteUpBdklGM3hJMGQ1M0psczFCYmFrSHJ0TEUwdVNZbmw5Zw?oc=5",
+   "published": "2026-11-24",
+   "source": "Funds Europe",
    "sector": "Other",
    "covenant": false,
    "tracked": false
   }
  ],
  "pipeline": [
+  {
+   "company": "Franklin Templeton",
+   "kind": "leader",
+   "date": "2026-11-24",
+   "title": "Franklin Templeton appoints Head of ETF, EMEA & Americas - Funds Europe",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzI3dTJ4b3pUMmhKdFFucGNqUU5CVm1DbjZHdG1jYS10RGEtbUk1X3RiUkU5cUJocFRtT28xVE54TGducko2elRmaUU1ejhuVF8tVVB6QzN5V2NEYlA4MlRBWUNteUpBdklGM3hJMGQ1M0psczFCYmFrSHJ0TEUwdVNZbmw5Zw?oc=5",
+   "score": 54,
+   "sector": "Other",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
   {
    "company": "Agon",
    "kind": "funding",
