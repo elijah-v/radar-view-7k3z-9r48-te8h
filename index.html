@@ -31,6 +31,12 @@ button, select, input, textarea { font: inherit; color: inherit; }
 .st-apply { --c: var(--apply); --cb: var(--apply-bg); }
 .st-engage { --c: var(--engage); --cb: var(--engage-bg); }
 .st-watch { --c: var(--watch); --cb: var(--watch-bg); }
+.st-check { --c: var(--accent); --cb: color-mix(in srgb, var(--accent) 13%, transparent); }
+.route { font-size: 12.5px; margin-top: 3px; }
+.route.ok { color: var(--apply); } .route.no { color: var(--engage); }
+.route q { color: var(--muted); font-style: italic; }
+.tagline { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 3px; }
+.tag { font-size: 11.5px; border: 1px solid var(--line); border-radius: 6px; padding: 1px 7px; color: var(--muted); }
 
 .top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top); }
 .top-in { max-width: 1160px; margin: 0 auto; padding: 12px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
@@ -203,7 +209,8 @@ details.note textarea { margin-top: 6px; }
   <details class="rubric">
     <summary>How it decides</summary>
     <ul>
-      <li><b>Act now, Apply now:</b> a UK or London SDR/BDR role is open and its posted pay clears your bar (OTE-only pay is estimated at 70% base).</li>
+      <li><b>Act now, Apply now:</b> a UK or London SDR/BDR role passes your Rules v3 tests: the ad states a route to an AE or closing seat; no stated base at or under £54k (pay not shown is not a fail; OTE-only pay is estimated at 70% base); no other language required; not a graduate, intern or commission-only seat; you haven't applied there.</li>
+      <li><b>Act now, Check first:</b> the same, but the ad states no route to AE, only a vague one, or couldn't be read. Run the flip test before applying.</li>
       <li><b>Act now, Engage now:</b> a UK AE, SDR manager or sales leader role is open, or a UK sales leader was hired or a London office/EMEA build-out announced within the window shown in the intro.</li>
       <li><b>Pipeline:</b> everything else on file: funding rounds, founder pedigree, older expansion news, tracked companies with no UK sales roles yet.</li>
       <li><b>Score (out of 100):</b> team and backers 25, pay power 20, industry 20, timing 25, path to AE 10.</li>
@@ -226,7 +233,7 @@ details.note textarea { margin-top: 6px; }
 <script>
 (function () {
   "use strict";
-  var CLS = { "Apply now": "st-apply", "Engage now": "st-engage", "Watch": "st-watch" };
+  var CLS = { "Apply now": "st-apply", "Check first": "st-check", "Engage now": "st-engage", "Watch": "st-watch" };
   var KINDS = [["funding", "Funding"], ["expansion", "London / EMEA expansion"], ["leader", "Sales leader hire"], ["other", "Other"]];
   var store = { get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
                 set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
@@ -294,22 +301,35 @@ details.note textarea { margin-top: 6px; }
   }
   function renderStats() {
     var box = $("stats"); box.textContent = "";
-    var list = nowList(), cnt = { "Apply now": 0, "Engage now": 0 };
+    var list = nowList(), cnt = { "Apply now": 0, "Check first": 0, "Engage now": 0 };
     list.forEach(function (c) { cnt[c.status] = (cnt[c.status] || 0) + 1; });
     var newRoles = list.reduce(function (a, c) { return a + c.jobs.filter(function (j) { return j.new; }).length; }, 0);
-    [["Apply now", "Apply now: target role open"], ["Engage now", "Engage now: UK sales team forming"]].forEach(function (x) {
+    [["Apply now", "Apply now: passes your S-tier tests"], ["Check first", "Check first: SDR open, route to AE not stated"], ["Engage now", "Engage now: UK sales team forming"]].forEach(function (x) {
       box.appendChild(el("button", { class: "stat " + CLS[x[0]], type: "button", "aria-pressed": String(S.nFilter === x[0]),
         onclick: function () { S.nFilter = S.nFilter === x[0] ? "" : x[0]; renderNow(); } }, [el("div", { class: "n", text: String(cnt[x[0]] || 0) }), el("div", { class: "l", text: x[1] })]));
     });
     box.appendChild(el("div", { class: "stat", style: "cursor:default;border-top-color:var(--accent)" }, [el("div", { class: "n", text: String(newRoles) }), el("div", { class: "l", text: "New UK sales roles since last scan" })]));
   }
+  function routeLine(c, j) {
+    if (j.kind !== "sdr") return null;
+    var r = j.route || "unknown";
+    if (r === "stated") return el("div", { class: "route ok" }, ["Route to AE stated: ", el("q", { text: j.route_quote })]);
+    var msg = r === "vague" ? "Route to AE only vague" : r === "none" ? "No route to AE stated" : "Ad not readable: check the route to AE";
+    return el("div", { class: "route no" }, [msg + ". Flip test: on LinkedIn, find a current " + c.name + " AE promoted from SDR in the last ~12 months.",
+      r === "vague" && j.route_quote ? el("div", null, [el("q", { text: j.route_quote })]) : null]);
+  }
   function jobList(c, limit) {
     var jobs = c.jobs.slice(0, limit || 99);
     if (!jobs.length) return null;
     return el("ul", { class: "jobs" }, jobs.map(function (j) {
+      var tags = [];
+      if (j.inbound_led) tags.push("Mostly inbound");
+      if (j.spanish) tags.push("Spanish mentioned");
       return el("li", null, [link(j.url, j.title), j.new ? el("span", { class: "pill new", text: "NEW" }) : null, " ",
         el("small", { text: [j.location, j.pay, j.first_seen ? "seen " + ageText(j.first_seen) : ""].filter(Boolean).join(" · ") }),
-        j.flags.length ? el("div", { class: "flag", text: j.flags.join("; ") }) : null]);
+        (j.flags || []).length ? el("div", { class: "flag", text: j.flags.join("; ") }) : null,
+        routeLine(c, j),
+        tags.length ? el("div", { class: "tagline" }, tags.map(function (t) { return el("span", { class: "tag", text: t }); })) : null]);
     }));
   }
   function renderNow() {

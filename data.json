@@ -1,62 +1,12 @@
 {
- "generated_at": "2026-11-25T22:14:25+00:00",
+ "generated_at": "2026-11-25T22:23:24+00:00",
  "companies": [
-  {
-   "name": "Chainguard",
-   "sector": "Cybersecurity",
-   "score": 95,
-   "status": "Apply now",
-   "hiring": "SDR/BDR open",
-   "parts": {
-    "team": 20,
-    "pay": 20,
-    "industry": 20,
-    "timing": 25,
-    "path": 10
-   },
-   "jobs": [
-    {
-     "title": "Business Development Representative, Middle East",
-     "location": "Europe - Remote",
-     "url": "https://job-boards.greenhouse.io/chainguard/jobs/4722928006",
-     "pay": "",
-     "kind": "sdr",
-     "new": false,
-     "flags": [
-      "check UK eligibility"
-     ],
-     "first_seen": "2026-10-23"
-    },
-    {
-     "title": "Business Development Representative, UK",
-     "location": "United Kingdom - Remote",
-     "url": "https://job-boards.greenhouse.io/chainguard/jobs/4727783006",
-     "pay": "",
-     "kind": "sdr",
-     "new": false,
-     "flags": [],
-     "first_seen": "2026-11-06"
-    }
-   ],
-   "board": "https://job-boards.greenhouse.io/chainguard",
-   "board_kind": "greenhouse",
-   "board_verified": true,
-   "signal": "$200M EMEA push, London HQ (date approximate)",
-   "signal_date": "2026-10-01",
-   "signal_kind": "expansion",
-   "note": "Your tracker shows the BDR UK application as unconfirmed",
-   "source": "",
-   "auto": false,
-   "horizon": "now",
-   "why_now": "UK SDR/BDR role open",
-   "signal_age": 55
-  },
   {
    "name": "CodeRabbit",
    "sector": "Dev tools",
    "score": 86,
-   "status": "Apply now",
-   "hiring": "SDR/BDR open",
+   "status": "Check first",
+   "hiring": "SDR/BDR open, but the ad states no route to AE",
    "parts": {
     "team": 20,
     "pay": 20,
@@ -72,8 +22,14 @@
      "pay": "",
      "kind": "ae",
      "new": false,
-     "flags": [],
-     "first_seen": "2026-11-05"
+     "flags": [
+      "needs German"
+     ],
+     "first_seen": "2026-11-05",
+     "route": "none",
+     "route_quote": "",
+     "inbound_led": false,
+     "spanish": false
     },
     {
      "title": "Sales Development Representative - EMEA (London)",
@@ -83,7 +39,11 @@
      "kind": "sdr",
      "new": false,
      "flags": [],
-     "first_seen": "2026-11-25"
+     "first_seen": "2026-11-25",
+     "route": "none",
+     "route_quote": "",
+     "inbound_led": true,
+     "spanish": false
     }
    ],
    "board": "https://jobs.ashbyhq.com/coderabbit",
@@ -96,7 +56,7 @@
    "source": "",
    "auto": false,
    "horizon": "now",
-   "why_now": "UK SDR/BDR role open",
+   "why_now": "SDR/BDR open, but the ad states no route to AE",
    "signal_age": 105
   },
   {
@@ -175,7 +135,11 @@
      "kind": "ae",
      "new": false,
      "flags": [],
-     "first_seen": "2026-07-27"
+     "first_seen": "2026-07-27",
+     "route": "none",
+     "route_quote": "",
+     "inbound_led": false,
+     "spanish": false
     }
    ],
    "board": "https://jobs.ashbyhq.com/geordieai",
@@ -213,7 +177,11 @@
      "kind": "ae",
      "new": false,
      "flags": [],
-     "first_seen": "2026-10-23"
+     "first_seen": "2026-10-23",
+     "route": "none",
+     "route_quote": "",
+     "inbound_led": false,
+     "spanish": false
     }
    ],
    "board": "https://jobs.lever.co/valarian",
@@ -251,7 +219,11 @@
      "kind": "ae",
      "new": false,
      "flags": [],
-     "first_seen": "2026-11-25"
+     "first_seen": "2026-11-25",
+     "route": "none",
+     "route_quote": "",
+     "inbound_led": false,
+     "spanish": false
     }
    ],
    "board": "https://jobs.ashbyhq.com/cloudbees",
@@ -561,7 +533,11 @@
      "flags": [
       "posted pay is OTE only, base likely under £55k"
      ],
-     "first_seen": "2026-11-19"
+     "first_seen": "2026-11-19",
+     "route": "vague",
+     "route_quote": "…rive - Someone with high aspirations, a competitive nature, and rapid career progression goals. - Attention to Detail - We care about producing high-quality w…",
+     "inbound_led": false,
+     "spanish": false
     }
    ],
    "board": "https://jobs.ashbyhq.com/tracebit",
