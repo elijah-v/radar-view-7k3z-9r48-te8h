@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T21:55:52+00:00",
+ "generated_at": "2026-11-25T09:59:13+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -59,7 +59,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "UK SDR/BDR role open",
-   "signal_age": 54
+   "signal_age": 55
   },
   {
    "name": "Zenity",
@@ -85,8 +85,8 @@
    "source": "",
    "auto": false,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 9 days ago",
-   "signal_age": 9
+   "why_now": "UK / EMEA sales leader hire, 10 days ago",
+   "signal_age": 10
   },
   {
    "name": "incident.io",
@@ -112,8 +112,8 @@
    "source": "",
    "auto": true,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 40 days ago",
-   "signal_age": 40
+   "why_now": "UK / EMEA sales leader hire, 41 days ago",
+   "signal_age": 41
   },
   {
    "name": "CodeRabbit",
@@ -151,7 +151,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 104
+   "signal_age": 105
   },
   {
    "name": "Geordie AI",
@@ -189,7 +189,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 180
+   "signal_age": 181
   },
   {
    "name": "Valarian",
@@ -227,7 +227,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 134
+   "signal_age": 135
   },
   {
    "name": "Cyera",
@@ -254,7 +254,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 138
+   "signal_age": 139
   },
   {
    "name": "Arrakis",
@@ -281,7 +281,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 123
+   "signal_age": 124
   },
   {
    "name": "Fractile",
@@ -308,7 +308,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 7
+   "signal_age": 8
   },
   {
    "name": "Agon",
@@ -335,7 +335,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 1
+   "signal_age": 2
   },
   {
    "name": "Gradient Labs",
@@ -362,7 +362,7 @@
    "auto": false,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 176
+   "signal_age": 177
   },
   {
    "name": "Ankar",
@@ -389,7 +389,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 342
+   "signal_age": 343
   },
   {
    "name": "Model ML",
@@ -416,7 +416,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 7
+   "signal_age": 8
   },
   {
    "name": "BTIG",
@@ -443,7 +443,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 1
+   "signal_age": 2
   },
   {
    "name": "Arrive",
@@ -470,7 +470,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 6
+   "signal_age": 7
   },
   {
    "name": "CloudBees",
@@ -497,7 +497,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 12
+   "signal_age": 13
   },
   {
    "name": "Mindgard",
@@ -524,7 +524,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 104
+   "signal_age": 105
   },
   {
    "name": "Tracebit",
@@ -564,24 +564,49 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 252
+   "signal_age": 253
   }
  ],
  "spotted": [
   {
-   "name": "Franklin Templeton",
-   "score": 54,
-   "kind": "leader",
-   "title": "Franklin Templeton appoints head of ETF, EMEA & Americas - Funds Europe",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzI3dTJ4b3pUMmhKdFFucGNqUU5CVm1DbjZHdG1jYS10RGEtbUk1X3RiUkU5cUJocFRtT28xVE54TGducko2elRmaUU1ejhuVF8tVVB6QzN5V2NEYlA4MlRBWUNteUpBdklGM3hJMGQ1M0psczFCYmFrSHJ0TEUwdVNZbmw5Zw?oc=5",
-   "published": "2026-11-24",
-   "source": "Funds Europe",
-   "sector": "Other",
+   "name": "Bound",
+   "score": 59,
+   "kind": "funding",
+   "title": "London-based Bound secures €45.68 million debt facility for its AI-powered FX risk management platform - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVVJNam9KNDhmSkZBUW9CaExiR193WXZqQVdlUU53X3FfbU1sWVdPX3dlOUtwWE1XZFJQSXFsOFlydHJyQlkxSmVwMDl3d1dRQ0Vad213WEpwbzhRejFkV0tDSFItLWdTakxHQjdPSjRBaHhjYVpTSDZXSkNnT3oxRWN0dmhlQ0xjZEg1MHU2eWpHWHpvMkpmWkVJblY0WkFjZWRjRTlMLXd1OUxYTERWdllQNlRaR2R3NzM2WTZyR0NVZWFNUWk2U1k1YU1VUEdsTUlDMGZ3?oc=5",
+   "published": "2026-11-25",
+   "source": "EU-Startups",
+   "sector": "Fintech",
+   "covenant": false,
+   "tracked": false
+  },
+  {
+   "name": "Perry AI",
+   "score": 51,
+   "kind": "funding",
+   "title": "UK AI-powered legal software start-up Perry AI raises $2.2m in seed funding round - The Global Legal Post",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS1RETHRhZW1Rd2stS2Z2UzRrOEd0QTlIaVAxWDAtdmNJb0dwYXFtRHl5SDdpa2VHUmVTLXVVdHdyRDQ0Rm5Vd1pVN1RQTDRRMG1vOV9xWmNhMHRaZVp5RzJSU1QzQWVXQlRsOXduN2czZkVsLW5LTzNVMUJNNTJsWXBOakxwV1ZnX2hNQWgzTjZwejd6T0swMF9GMFNCOFJ4a1hyUUlDT1JVMnBkYXpreUc3UUxvLVJqMFhjTGdPWDlkY1E?oc=5",
+   "published": "2026-11-18",
+   "source": "The Global Legal Post",
+   "sector": "Enterprise AI & data",
    "covenant": false,
    "tracked": false
   }
  ],
  "pipeline": [
+  {
+   "company": "Bound",
+   "kind": "funding",
+   "date": "2026-11-25",
+   "title": "London-based Bound secures €45.68 million debt facility for its AI-powered FX risk management platform - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVVJNam9KNDhmSkZBUW9CaExiR193WXZqQVdlUU53X3FfbU1sWVdPX3dlOUtwWE1XZFJQSXFsOFlydHJyQlkxSmVwMDl3d1dRQ0Vad213WEpwbzhRejFkV0tDSFItLWdTakxHQjdPSjRBaHhjYVpTSDZXSkNnT3oxRWN0dmhlQ0xjZEg1MHU2eWpHWHpvMkpmWkVJblY0WkFjZWRjRTlMLXd1OUxYTERWdllQNlRaR2R3NzM2WTZyR0NVZWFNUWk2U1k1YU1VUEdsTUlDMGZ3?oc=5",
+   "score": 59,
+   "sector": "Fintech",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
   {
    "company": "Franklin Templeton",
    "kind": "leader",
@@ -671,6 +696,19 @@
    "tracked": true,
    "hiring": "No UK sales roles seen",
    "board": "https://jobs.ashbyhq.com/arrive",
+   "covenant": false
+  },
+  {
+   "company": "Perry AI",
+   "kind": "funding",
+   "date": "2026-11-18",
+   "title": "UK AI-powered legal software start-up Perry AI raises $2.2m in seed funding round - The Global Legal Post",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS1RETHRhZW1Rd2stS2Z2UzRrOEd0QTlIaVAxWDAtdmNJb0dwYXFtRHl5SDdpa2VHUmVTLXVVdHdyRDQ0Rm5Vd1pVN1RQTDRRMG1vOV9xWmNhMHRaZVp5RzJSU1QzQWVXQlRsOXduN2czZkVsLW5LTzNVMUJNNTJsWXBOakxwV1ZnX2hNQWgzTjZwejd6T0swMF9GMFNCOFJ4a1hyUUlDT1JVMnBkYXpreUc3UUxvLVJqMFhjTGdPWDlkY1E?oc=5",
+   "score": 51,
+   "sector": "Enterprise AI & data",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
    "covenant": false
   },
   {
