@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T12:29:01+00:00",
+ "generated_at": "2026-11-25T15:52:22+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -239,7 +239,7 @@
      "url": "https://jobs.ashbyhq.com/cloudbees/dd5d9c94-c6ff-41f9-b633-620999ea364f",
      "pay": "",
      "kind": "ae",
-     "new": true,
+     "new": false,
      "flags": [],
      "first_seen": "2026-11-25"
     }
