@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T09:59:13+00:00",
+ "generated_at": "2026-11-25T12:29:01+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -36,16 +36,6 @@
      "new": false,
      "flags": [],
      "first_seen": "2026-11-06"
-    },
-    {
-     "title": "Enterprise Account Executive - UK",
-     "location": "United Kingdom - Remote",
-     "url": "https://job-boards.greenhouse.io/chainguard/jobs/4695878006",
-     "pay": "",
-     "kind": "ae",
-     "new": false,
-     "flags": [],
-     "first_seen": "2026-09-23"
     }
    ],
    "board": "https://job-boards.greenhouse.io/chainguard",
@@ -228,6 +218,44 @@
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
    "signal_age": 135
+  },
+  {
+   "name": "CloudBees",
+   "sector": "Dev tools",
+   "score": 63,
+   "status": "Engage now",
+   "hiring": "AE hiring, no SDR",
+   "parts": {
+    "team": 8,
+    "pay": 13,
+    "industry": 17,
+    "timing": 23,
+    "path": 2
+   },
+   "jobs": [
+    {
+     "title": "Account Executive - UK & Ireland Territories",
+     "location": "United Kingdom / Remote",
+     "url": "https://jobs.ashbyhq.com/cloudbees/dd5d9c94-c6ff-41f9-b633-620999ea364f",
+     "pay": "",
+     "kind": "ae",
+     "new": true,
+     "flags": [],
+     "first_seen": "2026-11-25"
+    }
+   ],
+   "board": "https://jobs.ashbyhq.com/cloudbees",
+   "board_kind": "ashby",
+   "board_verified": false,
+   "signal": "CloudBees opens London office as European enterprises embrace agentic coding - The Manila Times",
+   "signal_date": "2026-11-12",
+   "signal_kind": "expansion",
+   "note": "",
+   "source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbS1GVl9vOGM1MEJSU29QU0ZvX2lMM0NQbEQwZnF4cDZWMDVQYkdaRXo3SUlnS2pSczd5VW5qVkxiQ3hHRWhRdE5OMlV0QmlZUFFNQlFRRlBvLXBHZzFmOE9RMmtQSGIzQmNNdEJpRGVFRWQ2MEdoSmQ4NWFBX3JFb3dVNFZlcFBxVkNZRGl2MDQxc3RjSGdNeTJjanM1VER3S1FEdUctejhnRDM1UDluS0NfYk1Tc2I0VU92WFU5eng0MnYwOHVYdERwSjNKSTU3QXNLcWV1SkxtVmZNV3NpUFEzOHDSAeoBQVVfeXFMT0xSNWFubFhONjN2ZHY3N0ZwdmFUeUs3OS1FWHBMSkU4WHJSZkRzLXc1WXNkcVAxX2htZW5LLXh3M2Z0WDVBOFdOSUZraVhkNG5aZHJ1UXczS09HYWhtdkk3VEZpdjBIdjF6TWQ1SktEMkFKejg2M2hOOGpXQjlJa2d1QzBvLTFjRk1DYlpseVpwYVVlY1ljTzhuV01SOHBncmZTc2xpMTc5dEtraDNzbTIyb2V3OE44V0xQbDkwN3hjS3RZdHI0Vk5GU0x5dGZHeExKSWswSldBb05pc0xKRHFVeUlNUmk2YTJn?oc=5",
+   "auto": true,
+   "horizon": "now",
+   "why_now": "AE hiring, no SDR",
+   "signal_age": 13
   },
   {
    "name": "Cyera",
@@ -473,33 +501,6 @@
    "signal_age": 7
   },
   {
-   "name": "CloudBees",
-   "sector": "Dev tools",
-   "score": 60,
-   "status": "Watch",
-   "hiring": "No UK sales roles seen",
-   "parts": {
-    "team": 8,
-    "pay": 13,
-    "industry": 17,
-    "timing": 20,
-    "path": 2
-   },
-   "jobs": [],
-   "board": "https://jobs.ashbyhq.com/cloudbees",
-   "board_kind": "ashby",
-   "board_verified": false,
-   "signal": "CloudBees opens London office as European enterprises embrace agentic coding - The Manila Times",
-   "signal_date": "2026-11-12",
-   "signal_kind": "expansion",
-   "note": "",
-   "source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbS1GVl9vOGM1MEJSU29QU0ZvX2lMM0NQbEQwZnF4cDZWMDVQYkdaRXo3SUlnS2pSczd5VW5qVkxiQ3hHRWhRdE5OMlV0QmlZUFFNQlFRRlBvLXBHZzFmOE9RMmtQSGIzQmNNdEJpRGVFRWQ2MEdoSmQ4NWFBX3JFb3dVNFZlcFBxVkNZRGl2MDQxc3RjSGdNeTJjanM1VER3S1FEdUctejhnRDM1UDluS0NfYk1Tc2I0VU92WFU5eng0MnYwOHVYdERwSjNKSTU3QXNLcWV1SkxtVmZNV3NpUFEzOHDSAeoBQVVfeXFMT0xSNWFubFhONjN2ZHY3N0ZwdmFUeUs3OS1FWHBMSkU4WHJSZkRzLXc1WXNkcVAxX2htZW5LLXh3M2Z0WDVBOFdOSUZraVhkNG5aZHJ1UXczS09HYWhtdkk3VEZpdjBIdjF6TWQ1SktEMkFKejg2M2hOOGpXQjlJa2d1QzBvLTFjRk1DYlpseVpwYVVlY1ljTzhuV01SOHBncmZTc2xpMTc5dEtraDNzbTIyb2V3OE44V0xQbDkwN3hjS3RZdHI0Vk5GU0x5dGZHeExKSWswSldBb05pc0xKRHFVeUlNUmk2YTJn?oc=5",
-   "auto": true,
-   "horizon": "pipeline",
-   "why_now": "",
-   "signal_age": 13
-  },
-  {
    "name": "Mindgard",
    "sector": "Cybersecurity",
    "score": 59,
@@ -567,32 +568,7 @@
    "signal_age": 253
   }
  ],
- "spotted": [
-  {
-   "name": "Bound",
-   "score": 59,
-   "kind": "funding",
-   "title": "London-based Bound secures €45.68 million debt facility for its AI-powered FX risk management platform - EU-Startups",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVVJNam9KNDhmSkZBUW9CaExiR193WXZqQVdlUU53X3FfbU1sWVdPX3dlOUtwWE1XZFJQSXFsOFlydHJyQlkxSmVwMDl3d1dRQ0Vad213WEpwbzhRejFkV0tDSFItLWdTakxHQjdPSjRBaHhjYVpTSDZXSkNnT3oxRWN0dmhlQ0xjZEg1MHU2eWpHWHpvMkpmWkVJblY0WkFjZWRjRTlMLXd1OUxYTERWdllQNlRaR2R3NzM2WTZyR0NVZWFNUWk2U1k1YU1VUEdsTUlDMGZ3?oc=5",
-   "published": "2026-11-25",
-   "source": "EU-Startups",
-   "sector": "Fintech",
-   "covenant": false,
-   "tracked": false
-  },
-  {
-   "name": "Perry AI",
-   "score": 51,
-   "kind": "funding",
-   "title": "UK AI-powered legal software start-up Perry AI raises $2.2m in seed funding round - The Global Legal Post",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS1RETHRhZW1Rd2stS2Z2UzRrOEd0QTlIaVAxWDAtdmNJb0dwYXFtRHl5SDdpa2VHUmVTLXVVdHdyRDQ0Rm5Vd1pVN1RQTDRRMG1vOV9xWmNhMHRaZVp5RzJSU1QzQWVXQlRsOXduN2czZkVsLW5LTzNVMUJNNTJsWXBOakxwV1ZnX2hNQWgzTjZwejd6T0swMF9GMFNCOFJ4a1hyUUlDT1JVMnBkYXpreUc3UUxvLVJqMFhjTGdPWDlkY1E?oc=5",
-   "published": "2026-11-18",
-   "source": "The Global Legal Post",
-   "sector": "Enterprise AI & data",
-   "covenant": false,
-   "tracked": false
-  }
- ],
+ "spotted": [],
  "pipeline": [
   {
    "company": "Bound",
@@ -735,19 +711,6 @@
    "tracked": true,
    "hiring": "No UK sales roles seen",
    "board": "https://apply.workable.com/model-ml",
-   "covenant": false
-  },
-  {
-   "company": "CloudBees",
-   "kind": "expansion",
-   "date": "2026-11-12",
-   "title": "CloudBees opens London office as European enterprises embrace agentic coding - The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbS1GVl9vOGM1MEJSU29QU0ZvX2lMM0NQbEQwZnF4cDZWMDVQYkdaRXo3SUlnS2pSczd5VW5qVkxiQ3hHRWhRdE5OMlV0QmlZUFFNQlFRRlBvLXBHZzFmOE9RMmtQSGIzQmNNdEJpRGVFRWQ2MEdoSmQ4NWFBX3JFb3dVNFZlcFBxVkNZRGl2MDQxc3RjSGdNeTJjanM1VER3S1FEdUctejhnRDM1UDluS0NfYk1Tc2I0VU92WFU5eng0MnYwOHVYdERwSjNKSTU3QXNLcWV1SkxtVmZNV3NpUFEzOHDSAeoBQVVfeXFMT0xSNWFubFhONjN2ZHY3N0ZwdmFUeUs3OS1FWHBMSkU4WHJSZkRzLXc1WXNkcVAxX2htZW5LLXh3M2Z0WDVBOFdOSUZraVhkNG5aZHJ1UXczS09HYWhtdkk3VEZpdjBIdjF6TWQ1SktEMkFKejg2M2hOOGpXQjlJa2d1QzBvLTFjRk1DYlpseVpwYVVlY1ljTzhuV01SOHBncmZTc2xpMTc5dEtraDNzbTIyb2V3OE44V0xQbDkwN3hjS3RZdHI0Vk5GU0x5dGZHeExKSWswSldBb05pc0xKRHFVeUlNUmk2YTJn?oc=5",
-   "score": 60,
-   "sector": "Dev tools",
-   "tracked": true,
-   "hiring": "No UK sales roles seen",
-   "board": "https://jobs.ashbyhq.com/cloudbees",
    "covenant": false
   },
   {
