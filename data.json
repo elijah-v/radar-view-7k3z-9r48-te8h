@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T16:06:38+00:00",
+ "generated_at": "2026-11-25T17:26:39+00:00",
  "companies": [
   {
    "name": "Chainguard",
@@ -50,6 +50,54 @@
    "horizon": "now",
    "why_now": "UK SDR/BDR role open",
    "signal_age": 55
+  },
+  {
+   "name": "CodeRabbit",
+   "sector": "Dev tools",
+   "score": 86,
+   "status": "Apply now",
+   "hiring": "SDR/BDR open",
+   "parts": {
+    "team": 20,
+    "pay": 20,
+    "industry": 17,
+    "timing": 25,
+    "path": 4
+   },
+   "jobs": [
+    {
+     "title": "EMEA Account Executive - Emerging Enterprise - London",
+     "location": "UK / Remote",
+     "url": "https://jobs.ashbyhq.com/coderabbit/001a373e-24ef-48a4-89ad-f80de01b0086",
+     "pay": "",
+     "kind": "ae",
+     "new": false,
+     "flags": [],
+     "first_seen": "2026-11-05"
+    },
+    {
+     "title": "Sales Development Representative - EMEA (London)",
+     "location": "London / Remote",
+     "url": "https://jobs.ashbyhq.com/coderabbit/06dde510-ae4f-4652-a8b6-040c72e529d0",
+     "pay": "",
+     "kind": "sdr",
+     "new": true,
+     "flags": [],
+     "first_seen": "2026-11-25"
+    }
+   ],
+   "board": "https://jobs.ashbyhq.com/coderabbit",
+   "board_kind": "ashby",
+   "board_verified": true,
+   "signal": "Moorgate office, doubling EU headcount",
+   "signal_date": "2026-08-12",
+   "signal_kind": "expansion",
+   "note": "",
+   "source": "",
+   "auto": false,
+   "horizon": "now",
+   "why_now": "UK SDR/BDR role open",
+   "signal_age": 105
   },
   {
    "name": "Zenity",
@@ -104,44 +152,6 @@
    "horizon": "now",
    "why_now": "UK / EMEA sales leader hire, 41 days ago",
    "signal_age": 41
-  },
-  {
-   "name": "CodeRabbit",
-   "sector": "Dev tools",
-   "score": 84,
-   "status": "Engage now",
-   "hiring": "AE hiring, no SDR",
-   "parts": {
-    "team": 20,
-    "pay": 20,
-    "industry": 17,
-    "timing": 23,
-    "path": 4
-   },
-   "jobs": [
-    {
-     "title": "EMEA Account Executive - Emerging Enterprise - London",
-     "location": "UK / Remote",
-     "url": "https://jobs.ashbyhq.com/coderabbit/001a373e-24ef-48a4-89ad-f80de01b0086",
-     "pay": "",
-     "kind": "ae",
-     "new": false,
-     "flags": [],
-     "first_seen": "2026-11-05"
-    }
-   ],
-   "board": "https://jobs.ashbyhq.com/coderabbit",
-   "board_kind": "ashby",
-   "board_verified": true,
-   "signal": "Moorgate office, doubling EU headcount",
-   "signal_date": "2026-08-12",
-   "signal_kind": "expansion",
-   "note": "",
-   "source": "",
-   "auto": false,
-   "horizon": "now",
-   "why_now": "AE hiring, no SDR",
-   "signal_age": 105
   },
   {
    "name": "Geordie AI",
