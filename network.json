@@ -1,0 +1,1022 @@
+{
+ "generated_at": "2026-11-26T19:05:27+00:00",
+ "companies": [
+  {
+   "key": "boltz",
+   "name": "Boltz",
+   "hq": "London",
+   "segment": "AI drug discovery & development",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 90,
+   "parts": {
+    "team": 25,
+    "momentum": 25,
+    "fit": 25,
+    "uk": 15,
+    "reach": 0
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-11-18",
+     "amount_usd_m": 110,
+     "title": "Boltz raises $110M Series A led by Bessemer; partnerships with six of the top-20 pharma companies",
+     "link": "https://letsdatascience.com/news/boltz-raises-110m-series-a-led-by-bessemer-for-ai-drug-disco-b9c12513"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Boltz raises $110M Series A led by Bessemer; partnerships with six of the top-20 pharma companies",
+    "date": "2026-11-18",
+    "link": "https://letsdatascience.com/news/boltz-raises-110m-series-a-led-by-bessemer-for-ai-drug-disco-b9c12513"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "https://jobs.ashbyhq.com/boltz",
+   "open_roles": 9,
+   "last_signal": "2026-11-18"
+  },
+  {
+   "key": "perceptic",
+   "name": "Perceptic",
+   "hq": "London",
+   "segment": "Pharma data & AI software",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 79,
+   "parts": {
+    "team": 25,
+    "momentum": 8,
+    "fit": 25,
+    "uk": 15,
+    "reach": 6
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-05-26",
+     "amount_usd_m": 12,
+     "title": "Perceptic emerges from stealth with $12M seed led by Accel to automate drug development end-to-end for big pharma",
+     "link": "https://fortune.com/2026/05/26/exclusive-perceptic-a-startup-automating-drug-discovery-end-to-end-for-big-pharma-emerges-from-stealth-with-12-million-in-seed-funding/"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Perceptic emerges from stealth with $12M seed led by Accel to automate drug development end-to-end for big pharma",
+    "date": "2026-05-26",
+    "link": "https://fortune.com/2026/05/26/exclusive-perceptic-a-startup-automating-drug-discovery-end-to-end-for-big-pharma-emerges-from-stealth-with-12-million-in-seed-funding/"
+   },
+   "people_count": 3,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-05-26"
+  },
+  {
+   "key": "helical",
+   "name": "Helical",
+   "hq": "London",
+   "segment": "Pharma data & AI software",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 77,
+   "parts": {
+    "team": 25,
+    "momentum": 8,
+    "fit": 25,
+    "uk": 15,
+    "reach": 4
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-04-14",
+     "amount_usd_m": 10,
+     "title": "Helical raises $10M seed led by redalpine for a virtual AI lab used by top-20 pharma, including a Pfizer collaboration",
+     "link": "https://thenextweb.com/news/helical-10m-seed-bio-foundation-models-pharma-ai"
+    }
+   ],
+   "reason": {
+    "kind": "hiring",
+    "title": "Hiring commercial roles in the UK/Europe: (Senior) Account Executive, Business Development Associate",
+    "date": "2026-11-26",
+    "link": "https://apply.workable.com/helical"
+   },
+   "people_count": 0,
+   "commercial_roles": [
+    {
+     "title": "(Senior) Account Executive",
+     "location": "London, United Kingdom",
+     "url": "https://apply.workable.com/j/0F4C3F46CA"
+    },
+    {
+     "title": "Business Development Associate",
+     "location": "London, United Kingdom",
+     "url": "https://apply.workable.com/j/5B93724884"
+    }
+   ],
+   "board": "https://apply.workable.com/helical",
+   "open_roles": 14,
+   "last_signal": "2026-04-14"
+  },
+  {
+   "key": "daltontx",
+   "name": "DaltonTx",
+   "hq": "London (King's Cross)",
+   "segment": "AI drug discovery & development",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 76,
+   "parts": {
+    "team": 25,
+    "momentum": 5,
+    "fit": 25,
+    "uk": 15,
+    "reach": 6
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-09-23",
+     "amount_usd_m": 5.4,
+     "title": "DaltonTx raises £4M seed for an AI discovery platform that plugs into pharma, biotech and CRO workflows",
+     "link": "https://seedcamp.com/views/daltontx-raises-4-million-seed-round-to-build-adaptive-ai-enabled-drug-discovery-platforms/"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "DaltonTx raises £4M seed for an AI discovery platform that plugs into pharma, biotech and CRO workflows",
+    "date": "2025-09-23",
+    "link": "https://seedcamp.com/views/daltontx-raises-4-million-seed-round-to-build-adaptive-ai-enabled-drug-discovery-platforms/"
+   },
+   "people_count": 4,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2025-09-23"
+  },
+  {
+   "key": "inherent",
+   "name": "Inherent",
+   "hq": "London",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "unknown",
+   "covenant": false,
+   "score": 75,
+   "parts": {
+    "team": 25,
+    "momentum": 13,
+    "fit": 16,
+    "uk": 15,
+    "reach": 6
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-05-29",
+     "amount_usd_m": 50,
+     "title": "Inherent emerges from stealth with $50M seed led by Index and Radical to build AI-native science",
+     "link": "https://dealroom.co/news/130378-inherent-emerges-from-stealth-with-50m-seed-to-build-ai-native-science/"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Inherent emerges from stealth with $50M seed led by Index and Radical to build AI-native science",
+    "date": "2026-05-29",
+    "link": "https://dealroom.co/news/130378-inherent-emerges-from-stealth-with-50m-seed-to-build-ai-native-science/"
+   },
+   "people_count": 4,
+   "commercial_roles": [],
+   "board": "https://jobs.ashbyhq.com/inherent",
+   "open_roles": 6,
+   "last_signal": "2026-05-29"
+  },
+  {
+   "key": "adaptyv",
+   "name": "Adaptyv",
+   "hq": "Lausanne (London office and lab planned)",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 75,
+   "parts": {
+    "team": 13,
+    "momentum": 21,
+    "fit": 22,
+    "uk": 15,
+    "reach": 4
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "expansion",
+     "date": "2026-11-26",
+     "amount_usd_m": 40,
+     "title": "Adaptyv raises $40M Series A and plans a new London office and lab in Q4 2026; customers include Roche and Novo Nordisk",
+     "link": "https://pulse2.com/adaptyv-raises-40-million-series-a-as-automated-biology-lab-throughput-grows-more-than-5x/amp/"
+    }
+   ],
+   "reason": {
+    "kind": "hiring",
+    "title": "Hiring commercial roles in the UK/Europe: Scientific Account Executive, Head of Partnerships (AI & Biotech), Partnerships Manager, AI & Frontier Labs",
+    "date": "2026-11-26",
+    "link": "https://jobs.ashbyhq.com/adaptyv"
+   },
+   "people_count": 0,
+   "commercial_roles": [
+    {
+     "title": "Scientific Account Executive",
+     "location": "London / Remote",
+     "url": "https://jobs.ashbyhq.com/adaptyv/aeed97e7-941f-4e6b-ad64-cf85b018f09b"
+    },
+    {
+     "title": "Head of Partnerships (AI & Biotech)",
+     "location": "London / San Francisco",
+     "url": "https://jobs.ashbyhq.com/adaptyv/77084f0d-2ac2-46da-bc3a-8cb0bd37da9f"
+    },
+    {
+     "title": "Partnerships Manager, AI & Frontier Labs",
+     "location": "London / San Francisco",
+     "url": "https://jobs.ashbyhq.com/adaptyv/833f6c93-dbb9-4d84-84cc-425c1654cf47"
+    }
+   ],
+   "board": "https://jobs.ashbyhq.com/adaptyv",
+   "open_roles": 38,
+   "last_signal": "2026-11-26"
+  },
+  {
+   "key": "polymodelshub",
+   "name": "PolyModels Hub",
+   "hq": "London",
+   "segment": "Pharma data & AI software",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 69,
+   "parts": {
+    "team": 18,
+    "momentum": 5,
+    "fit": 25,
+    "uk": 15,
+    "reach": 6
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-11-20",
+     "amount_usd_m": 9.2,
+     "title": "PolyModels Hub raises £7M Series A led by Molten for its biopharma process-development software",
+     "link": "https://www.uktech.news/medtech/polymodels-hub-raises-7m-a-year-after-seed-round-20251120"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "PolyModels Hub raises £7M Series A led by Molten for its biopharma process-development software",
+    "date": "2025-11-20",
+    "link": "https://www.uktech.news/medtech/polymodels-hub-raises-7m-a-year-after-seed-round-20251120"
+   },
+   "people_count": 3,
+   "commercial_roles": [],
+   "board": "https://apply.workable.com/polymodels-hub",
+   "open_roles": 0,
+   "last_signal": "2025-11-20"
+  },
+  {
+   "key": "automata",
+   "name": "Automata",
+   "hq": "London",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 68,
+   "parts": {
+    "team": 18,
+    "momentum": 13,
+    "fit": 22,
+    "uk": 15,
+    "reach": 0
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-01-29",
+     "amount_usd_m": 45,
+     "title": "Automata raises $45M Series C led by Dimension to scale lab automation deployments across pharma and biotech",
+     "link": "https://www.businesswire.com/news/home/20260129548625/en"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Automata raises $45M Series C led by Dimension to scale lab automation deployments across pharma and biotech",
+    "date": "2026-01-29",
+    "link": "https://www.businesswire.com/news/home/20260129548625/en"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "https://apply.workable.com/automata",
+   "open_roles": 0,
+   "last_signal": "2026-01-29"
+  },
+  {
+   "key": "lindushealth",
+   "name": "Lindus Health",
+   "hq": "London",
+   "segment": "Clinical trials & real-world data",
+   "model": "sells_to_pharma",
+   "covenant": true,
+   "score": 68,
+   "parts": {
+    "team": 18,
+    "momentum": 7,
+    "fit": 22,
+    "uk": 15,
+    "reach": 6
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-01-22",
+     "amount_usd_m": 55,
+     "title": "Lindus Health, an 'anti-CRO', raises $55M Series B to fix the clinical trial industry",
+     "link": "https://techcrunch.com/2025/01/22/lindus-health-raises-55m-to-fix-the-broken-clinical-trial-industry"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Lindus Health, an 'anti-CRO', raises $55M Series B to fix the clinical trial industry",
+    "date": "2025-01-22",
+    "link": "https://techcrunch.com/2025/01/22/lindus-health-raises-55m-to-fix-the-broken-clinical-trial-industry"
+   },
+   "people_count": 3,
+   "commercial_roles": [],
+   "board": "https://jobs.ashbyhq.com/lindus",
+   "open_roles": 1,
+   "last_signal": "2025-01-22"
+  },
+  {
+   "key": "coriclinical",
+   "name": "Cori Clinical",
+   "hq": "UK",
+   "segment": "Clinical trials & real-world data",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 61,
+   "parts": {
+    "team": 18,
+    "momentum": 9,
+    "fit": 22,
+    "uk": 12,
+    "reach": 0
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-10-07",
+     "amount_usd_m": 4,
+     "title": "Cori Clinical secures $4M seed led by Breega for its AI workspace for clinical trial design; growing commercial team",
+     "link": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
+    },
+    {
+     "kind": "funding",
+     "date": "2026-10-07",
+     "title": "London’s Cori Clinical raises €3.8 million to accelerate clinical trials and reduce delays - EU-Startups",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM1kzeGpJU05GWXVjSHowaVhaY2YtYTBYWTZnejFYNmNXRzllUTBRUm5kdlRWV1JHZW9fX3g4TGVkNTU0dzBnTnJSODBPYUhkZFYxVFh5Ylk1eU5fM09oZXhQZ01wWDNYTUw0YzJxTDhBS0xPVzM1UGdoMzhyT0w3UHdrR1kxbFE0ZTlRLVVvZl9YM1JJREE3NXQ5UVhmWHh0SmY0bUV6V2NBbFBLMXdCM1RDOGhCOVFacEtXa3oyNTRpTjBycmc?oc=5",
+     "source": "EU-Startups",
+     "amount_usd_m": 3.8
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Cori Clinical secures $4M seed led by Breega for its AI workspace for clinical trial design; growing commercial team",
+    "date": "2026-10-07",
+    "link": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-10-07"
+  },
+  {
+   "key": "causaly",
+   "name": "Causaly",
+   "hq": "London",
+   "segment": "Pharma data & AI software",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 57,
+   "parts": {
+    "team": 6,
+    "momentum": 7,
+    "fit": 25,
+    "uk": 15,
+    "reach": 4
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2023-07-13",
+     "amount_usd_m": 60,
+     "title": "Causaly raises $60M Series B for its AI platform for drug discovery and biomedical research",
+     "link": "https://techcrunch.com/2023/07/13/causaly-an-ai-platform-for-drug-discovery-and-biomedical-research-raises-60m"
+    }
+   ],
+   "reason": {
+    "kind": "hiring",
+    "title": "Hiring commercial roles in the UK/Europe: Strategy & Solutions Lead",
+    "date": "2026-11-26",
+    "link": "https://jobs.ashbyhq.com/causaly"
+   },
+   "people_count": 0,
+   "commercial_roles": [
+    {
+     "title": "Strategy & Solutions Lead",
+     "location": "London / Remote",
+     "url": "https://jobs.ashbyhq.com/causaly/c85520a1-6cc9-46b9-b52f-529093b3f44f"
+    }
+   ],
+   "board": "https://jobs.ashbyhq.com/causaly",
+   "open_roles": 12,
+   "last_signal": "2023-07-13"
+  },
+  {
+   "key": "latentlabs",
+   "name": "Latent Labs",
+   "hq": "London (and San Francisco)",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "unknown",
+   "covenant": false,
+   "score": 53,
+   "parts": {
+    "team": 13,
+    "momentum": 7,
+    "fit": 16,
+    "uk": 15,
+    "reach": 2
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-02-12",
+     "amount_usd_m": 50,
+     "title": "Latent Labs, founded by DeepMind alumnus Simon Kohl, launches with $50M to make biology programmable",
+     "link": "https://techcrunch.com/2025/02/12/founded-by-deepmind-alumnus-latent-labs-launches-with-50m-to-make-biology-programmable"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Latent Labs, founded by DeepMind alumnus Simon Kohl, launches with $50M to make biology programmable",
+    "date": "2025-02-12",
+    "link": "https://techcrunch.com/2025/02/12/founded-by-deepmind-alumnus-latent-labs-launches-with-50m-to-make-biology-programmable"
+   },
+   "people_count": 1,
+   "commercial_roles": [],
+   "board": "https://jobs.ashbyhq.com/latentlabs",
+   "open_roles": 6,
+   "last_signal": "2025-02-12"
+  },
+  {
+   "key": "qureight",
+   "name": "Qureight",
+   "hq": "Cambridge (London office since Aug 2026)",
+   "segment": "Imaging & diagnostics AI",
+   "model": "sells_to_pharma",
+   "covenant": true,
+   "score": 53,
+   "parts": {
+    "team": 6,
+    "momentum": 14,
+    "fit": 18,
+    "uk": 15,
+    "reach": 0
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "expansion",
+     "date": "2026-08-19",
+     "title": "Qureight opens a London office to scale its commercial and clinical operations",
+     "link": "https://simplify.jobs/c/Qureight"
+    },
+    {
+     "kind": "funding",
+     "date": "2026-07-29",
+     "amount_usd_m": 20,
+     "title": "Qureight closes $20M Series B for AI imaging endpoints in lung and heart clinical trials",
+     "link": "https://www.cambridgenetwork.co.uk/index.php/news/qureight-closes-20-million-series-b-financing"
+    }
+   ],
+   "reason": {
+    "kind": "expansion",
+    "title": "Qureight opens a London office to scale its commercial and clinical operations",
+    "date": "2026-08-19",
+    "link": "https://simplify.jobs/c/Qureight"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "https://apply.workable.com/qureight",
+   "open_roles": 9,
+   "last_signal": "2026-08-19"
+  },
+  {
+   "key": "bitfount",
+   "name": "Bitfount",
+   "hq": "London",
+   "segment": "Clinical trials & real-world data",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 48,
+   "parts": {
+    "team": 6,
+    "momentum": 5,
+    "fit": 22,
+    "uk": 15,
+    "reach": 0
+   },
+   "seeded": true,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-07-23",
+     "amount_usd_m": 8,
+     "title": "Bitfount raises $8M Series A for federated AI that unlocks clinical research data for pharma",
+     "link": "https://tech.eu/2025/07/23/bitfount-raises-8m-to-unlock-clinical-research-data-with-federated-ai/"
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Bitfount raises $8M Series A for federated AI that unlocks clinical research data for pharma",
+    "date": "2025-07-23",
+    "link": "https://tech.eu/2025/07/23/bitfount-raises-8m-to-unlock-clinical-research-data-with-federated-ai/"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "https://apply.workable.com/bitfount",
+   "open_roles": 0,
+   "last_signal": "2025-07-23"
+  },
+  {
+   "key": "isomorphiclabs",
+   "name": "Isomorphic Labs",
+   "hq": "",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "unknown",
+   "covenant": false,
+   "score": 48,
+   "parts": {
+    "team": 13,
+    "momentum": 15,
+    "fit": 16,
+    "uk": 4,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-05-13",
+     "title": "Isomorphic Labs raises $2.1B for AI-enabled drug discovery drive",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUXZzWm1nMC10R04wQ2NSaTlDNjBaMVhORmw0dlNkOVE3THo1STdPbHZHUy1oTlRyTkduVnY2d2FTLUxYMTJTNFJEZ2FmM1JvWno4RWRzeFFNaDhJUHlCaHMtZzltOEZ6QzRSNEt4cllIQ21TX0xfREcwSzJKM1oycjlJMXowM19IWVhSTmJRVXkzVnoxNFdQYVFYenFDOUxhU19tS2VMNmE1MjV3aDd6Sg?oc=5",
+     "source": "European Biotechnology Magazine",
+     "amount_usd_m": 2100.0
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Isomorphic Labs raises $2.1B for AI-enabled drug discovery drive",
+    "date": "2026-05-13",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUXZzWm1nMC10R04wQ2NSaTlDNjBaMVhORmw0dlNkOVE3THo1STdPbHZHUy1oTlRyTkduVnY2d2FTLUxYMTJTNFJEZ2FmM1JvWno4RWRzeFFNaDhJUHlCaHMtZzltOEZ6QzRSNEt4cllIQ21TX0xfREcwSzJKM1oycjlJMXowM19IWVhSTmJRVXkzVnoxNFdQYVFYenFDOUxhU19tS2VMNmE1MjV3aDd6Sg?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-05-13"
+  },
+  {
+   "key": "pharosyn",
+   "name": "Pharosyn",
+   "hq": "",
+   "segment": "Pharma data & AI software",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 47,
+   "parts": {
+    "team": 6,
+    "momentum": 9,
+    "fit": 25,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-09-02",
+     "title": "UK startup Pharosyn raises €2.5 million for pharma competitive intelligence platform - EU-Startups",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdTFZei1JN0x4TkV1bUtTVXRRMzR1cW14cmdOM2JXa0ZRV3F4alFjUUpVdWdFeFYzd3dmZzdicTNiLXRzajNkZXFwTF9VYlFRelRJWU9BQ0twNzI3a3hNUHNtRXUwSVFETnhuZnpPcmhGNlhYdEEzdG9xSUlIcUwwRTVsMkFoM25sUmZPOEJtVGJ4cy1YRjh1S01vYm9LNnRsR2ZwcUY3SEs4SmR2WThhTUVCY0ZGamVaRjhyd2lR?oc=5",
+     "source": "EU-Startups",
+     "amount_usd_m": 2.5
+    },
+    {
+     "kind": "funding",
+     "date": "2026-09-02",
+     "title": "Exclusive: London’s Pharosyn raises $3M to speed up pharma’s commercial decisions",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVlHaU8weU84M2tVMW16QkpNVTRZTHpwZ0dmNXY5S0lHRUhJVGh3WlFzQXBIZUJYY2RidWEta2dycWNBbUk4VXRqWjFoekh6OHFyeDVjTzRYUWFXZWpQNElZcTlPVUUtZHh0d1V2Z0tsNnBVNF9LZ2lCRzc5Z0F0QXJ6bTMtWUtJVGc?oc=5",
+     "source": "Tech Funding News",
+     "amount_usd_m": 3.0
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "UK startup Pharosyn raises €2.5 million for pharma competitive intelligence platform - EU-Startups",
+    "date": "2026-09-02",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdTFZei1JN0x4TkV1bUtTVXRRMzR1cW14cmdOM2JXa0ZRV3F4alFjUUpVdWdFeFYzd3dmZzdicTNiLXRzajNkZXFwTF9VYlFRelRJWU9BQ0twNzI3a3hNUHNtRXUwSVFETnhuZnpPcmhGNlhYdEEzdG9xSUlIcUwwRTVsMkFoM25sUmZPOEJtVGJ4cy1YRjh1S01vYm9LNnRsR2ZwcUY3SEs4SmR2WThhTUVCY0ZGamVaRjhyd2lR?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-09-02"
+  },
+  {
+   "key": "alchemabtherapeutics",
+   "name": "Alchemab Therapeutics",
+   "hq": "",
+   "segment": "Pharma data & AI software",
+   "model": "unknown",
+   "covenant": false,
+   "score": 46,
+   "parts": {
+    "team": 6,
+    "momentum": 14,
+    "fit": 19,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-07-09",
+     "title": "Alchemab Therapeutics secures €29.3 million as British Business Bank makes its largest life sciences investment yet - EU-Startups",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa0R6SlUwbVE3UW5VUHg4ZUpaV29FNWdBcFRUNG5NT0JJMXVpSU5JUmJfZEwydjdiZkpwVTZYd0tTZ2l1c1ZnOERTc3VqR056a1NBOU5aSDZJYzdBU2VLeHdHcklpYUNXZGQzcmVjMmpWTHZBTmtQcWp6RWF2WGhKR19ybF9hRGIyRHJjaGVEQUVyaGR4VFNFM1ViRTNINGJQcDk5SEt6TlZSNDVfSnpmU1d0WnFEaVBhb3RnOTRSQWt5cWd0dHplRzZzNUs4S1FGUkF5QmYyN1gyQl9UWGJ4TnZuNjhGNWoxS2gwcFlFMXVxZw?oc=5",
+     "source": "EU-Startups",
+     "amount_usd_m": 29.3
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "Alchemab Therapeutics secures €29.3 million as British Business Bank makes its largest life sciences investment yet - EU-Startups",
+    "date": "2026-07-09",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa0R6SlUwbVE3UW5VUHg4ZUpaV29FNWdBcFRUNG5NT0JJMXVpSU5JUmJfZEwydjdiZkpwVTZYd0tTZ2l1c1ZnOERTc3VqR056a1NBOU5aSDZJYzdBU2VLeHdHcklpYUNXZGQzcmVjMmpWTHZBTmtQcWp6RWF2WGhKR19ybF9hRGIyRHJjaGVEQUVyaGR4VFNFM1ViRTNINGJQcDk5SEt6TlZSNDVfSnpmU1d0WnFEaVBhb3RnOTRSQWt5cWd0dHplRzZzNUs4S1FGUkF5QmYyN1gyQl9UWGJ4TnZuNjhGNWoxS2gwcFlFMXVxZw?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-07-09"
+  },
+  {
+   "key": "genscriptconvenesai",
+   "name": "GenScript Convenes AI",
+   "hq": "",
+   "segment": "Pharma data & AI software",
+   "model": "unknown",
+   "covenant": false,
+   "score": 41,
+   "parts": {
+    "team": 6,
+    "momentum": 9,
+    "fit": 19,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-11-25",
+     "title": "GenScript Convenes AI, Biotech and Investment Leaders in London as Faster AI-Enabled Drug Design Raises the Stakes for Biological Evidence",
+     "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSHJNaUZjYnJGZUxwR0ltRVdlZldZc3prcE4tRi13YW9HS0oxRktMZU5pWHVZMmJDSFVZcG02bFFlWm1LejFtWjhoR2RqM1lEWTlhLUpoaTYxdWRqazRQVDN0REtqZzdzc0xRY3N0TUZObVZ4ZElzY1NjTldkOGNBeGFRanZoTVVfMDJxQ28ySENmRzFLTkYtTTVaOG9qLWZ5emMyVHY1NVJYZmZITFNqV1BkV2doc0NtRkw4cTdDUmFvWTFVT0NyZGRMNEhpLTVPT0xWSjJZbkJSYWlZSFFSSldUSHo5aWhQeTcwcnI0WnNtTk5mTDhZbEtNQVZ0Q182QXRENVlUMmk3UmliUFA2YUNha0NLTG1odVk3MkJR?oc=5",
+     "source": "PR Newswire",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "GenScript Convenes AI, Biotech and Investment Leaders in London as Faster AI-Enabled Drug Design Raises the Stakes for Biological Evidence",
+    "date": "2026-11-25",
+    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSHJNaUZjYnJGZUxwR0ltRVdlZldZc3prcE4tRi13YW9HS0oxRktMZU5pWHVZMmJDSFVZcG02bFFlWm1LejFtWjhoR2RqM1lEWTlhLUpoaTYxdWRqazRQVDN0REtqZzdzc0xRY3N0TUZObVZ4ZElzY1NjTldkOGNBeGFRanZoTVVfMDJxQ28ySENmRzFLTkYtTTVaOG9qLWZ5emMyVHY1NVJYZmZITFNqV1BkV2doc0NtRkw4cTdDUmFvWTFVT0NyZGRMNEhpLTVPT0xWSjJZbkJSYWlZSFFSSldUSHo5aWhQeTcwcnI0WnNtTk5mTDhZbEtNQVZ0Q182QXRENVlUMmk3UmliUFA2YUNha0NLTG1odVk3MkJR?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-11-25"
+  },
+  {
+   "key": "wilbe",
+   "name": "Wilbe",
+   "hq": "",
+   "segment": "Pharma data & AI software",
+   "model": "unknown",
+   "covenant": false,
+   "score": 41,
+   "parts": {
+    "team": 6,
+    "momentum": 6,
+    "fit": 19,
+    "uk": 10,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "expansion",
+     "date": "2026-03-06",
+     "title": "Wilbe opens flexible life sciences lab hub in White City",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXJxX196ak9maFQydUZnOHJBdlBtdm5ZOENod2ZUYzJRdHpZNWFYSXp4dFE4QXhBZld1Z1d6NldsZUw3VS1pUFdxd0RyQ1A4NlRiTkNNeTlnQWtLS1EtVmFIOVludWx2VThCRkxvN290SDdPbDNqazZzNTJTcm1pRUdIc1NSUnNwQUNGYg?oc=5",
+     "source": "IT Brief UK",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "expansion",
+    "title": "Wilbe opens flexible life sciences lab hub in White City",
+    "date": "2026-03-06",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXJxX196ak9maFQydUZnOHJBdlBtdm5ZOENod2ZUYzJRdHpZNWFYSXp4dFE4QXhBZld1Z1d6NldsZUw3VS1pUFdxd0RyQ1A4NlRiTkNNeTlnQWtLS1EtVmFIOVludWx2VThCRkxvN290SDdPbDNqazZzNTJTcm1pRUdIc1NSUnNwQUNGYg?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-03-06"
+  },
+  {
+   "key": "conceptlifesciences",
+   "name": "Concept Life Sciences",
+   "hq": "",
+   "segment": "Pharma data & AI software",
+   "model": "unknown",
+   "covenant": false,
+   "score": 39,
+   "parts": {
+    "team": 6,
+    "momentum": 10,
+    "fit": 19,
+    "uk": 4,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "hire",
+     "date": "2026-10-12",
+     "title": "Concept Life Sciences Appoints Dr Adrijana Vinter as Chief Executive Officer",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObEJ2d2loLXZyaTJNQUowRTVhMlhVRlROQ2Rmb3piRC1sbVd1VGNqMEdCckZfWXlXYWtrelNWNzQ4aUhOTUZ1dDNQOWJRYkZWaTZiU3NHdUdqMnJJSmM4b04tTU94dnBwazRXOGNuOU5JTHRFdmFGb2V1MDJqX2wyS2lQYlJ1MHBCc2c?oc=5",
+     "source": "Yahoo Finance UK",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "hire",
+    "title": "Concept Life Sciences Appoints Dr Adrijana Vinter as Chief Executive Officer",
+    "date": "2026-10-12",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObEJ2d2loLXZyaTJNQUowRTVhMlhVRlROQ2Rmb3piRC1sbVd1VGNqMEdCckZfWXlXYWtrelNWNzQ4aUhOTUZ1dDNQOWJRYkZWaTZiU3NHdUdqMnJJSmM4b04tTU94dnBwazRXOGNuOU5JTHRFdmFGb2V1MDJqX2wyS2lQYlJ1MHBCc2c?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-10-12"
+  },
+  {
+   "key": "aifintechgradientlabs",
+   "name": "AI FinTech Gradient Labs",
+   "hq": "",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "unknown",
+   "covenant": false,
+   "score": 36,
+   "parts": {
+    "team": 6,
+    "momentum": 4,
+    "fit": 16,
+    "uk": 10,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "expansion",
+     "date": "2025-10-24",
+     "title": "Fast growing London AI FinTech Gradient Labs launches in US",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM3A3aHVnU3dyVGZTYktCX0tnd3JvVXh4a3M2NmhJa3dyTFdwQWh3SDZETnlVS0h4Q1FWSEJXZ3l3OGNfVGJpbUVsd0tXNXlUTmtwc3BfNExITlhWWFZuZk9UemxsYlRuZi14bGVnSVQ1MnNMV202bFJKbl83LURIU19VTnFscklhaVU4bGN5ZkFBeGlnX21jQg?oc=5",
+     "source": "BusinessCloud",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "expansion",
+    "title": "Fast growing London AI FinTech Gradient Labs launches in US",
+    "date": "2025-10-24",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM3A3aHVnU3dyVGZTYktCX0tnd3JvVXh4a3M2NmhJa3dyTFdwQWh3SDZETnlVS0h4Q1FWSEJXZ3l3OGNfVGJpbUVsd0tXNXlUTmtwc3BfNExITlhWWFZuZk9UemxsYlRuZi14bGVnSVQ1MnNMV202bFJKbl83LURIU19VTnFscklhaVU4bGN5ZkFBeGlnX21jQg?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2025-10-24"
+  },
+  {
+   "key": "flagshippioneering",
+   "name": "Flagship Pioneering",
+   "hq": "",
+   "segment": "Other life sciences tech",
+   "model": "sells_to_pharma",
+   "covenant": false,
+   "score": 35,
+   "parts": {
+    "team": 6,
+    "momentum": 10,
+    "fit": 12,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "launch",
+     "date": "2026-11-16",
+     "title": "Flagship Pioneering Launches London Lab to Build AI-Native Companies",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdndpOWo5SWxoa004VlFYYTMyQmlNLUhUQUhOYlJ3RktpZHBtX1RDLWFHMmFFM0FyMTBLNnUzaEFBRjJMVUhiRGl6QlNlZHlneTZqSDFXZFIweGNmWExJVWhlTFY3NzdGQ2h0a09vbTZZWFZxUERMR2JzY2RWLXZsRXNqaDE3TjNFYWl0T0ZDVEVYeUFW?oc=5",
+     "source": "Unite.AI",
+     "amount_usd_m": null
+    },
+    {
+     "kind": "launch",
+     "date": "2026-11-15",
+     "title": "Flagship Pioneering Launches Flagship Origination Lab in London to Create AI-Native Platform Companies in the U.K.",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT29BYjJZdjlrRm8wanFxWkR5TXVTR1NRbUhhcVB4dTl4NlFjY0s4ZFFiYnZwa1VKbkxyalhMbUl1M1dObjl0WE9PaUY2Wm04WlZva2xYYlk2SnlqOHJZZEVwRUFsQ0F2VlJOejlySUNGTWNseGF3REFva09YQV9aOXg2Qnh5VFFLWnJhMlI1aEZhWUxSOVpNYlV4dlhST0ZsN0xBbTlJYTctUTlTNlI5Y29Uaw?oc=5",
+     "source": "Yahoo Finance",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "launch",
+    "title": "Flagship Pioneering Launches London Lab to Build AI-Native Companies",
+    "date": "2026-11-16",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdndpOWo5SWxoa004VlFYYTMyQmlNLUhUQUhOYlJ3RktpZHBtX1RDLWFHMmFFM0FyMTBLNnUzaEFBRjJMVUhiRGl6QlNlZHlneTZqSDFXZFIweGNmWExJVWhlTFY3NzdGQ2h0a09vbTZZWFZxUERMR2JzY2RWLXZsRXNqaDE3TjNFYWl0T0ZDVEVYeUFW?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-11-16"
+  },
+  {
+   "key": "barclayseaglelabs",
+   "name": "Barclays Eagle Labs",
+   "hq": "",
+   "segment": "Lab automation & bio-AI tools",
+   "model": "unknown",
+   "covenant": false,
+   "score": 35,
+   "parts": {
+    "team": 6,
+    "momentum": 6,
+    "fit": 16,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "launch",
+     "date": "2026-05-18",
+     "title": "Barclays Eagle Labs Unveils Report Profiling the UK's Next Generation of AI Scaleups",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVNXWE9aQVhjM1RxRE1nRDJNbG0xN1lScnlwbWRWZVBUTE5jd0V1Y1JZVVRHS05xV29FVE1wMGkwYXZCdkMzemVCNlVjYmw2SnpaX09pN0lnOTlUaGNWcTVHMzF3bHNjeWgwR01MWHdXcEUtbldma3NRRmNEa2hoRU16VVNZeXc0bEhOQkZ0QjFRbVg0T1JDUFRQU0xYbnVnM0g2Rjdua0s2RWIyX3NZMm5EaEgxUHNW?oc=5",
+     "source": "Barclays Group",
+     "amount_usd_m": null
+    }
+   ],
+   "reason": {
+    "kind": "launch",
+    "title": "Barclays Eagle Labs Unveils Report Profiling the UK's Next Generation of AI Scaleups",
+    "date": "2026-05-18",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVNXWE9aQVhjM1RxRE1nRDJNbG0xN1lScnlwbWRWZVBUTE5jd0V1Y1JZVVRHS05xV29FVE1wMGkwYXZCdkMzemVCNlVjYmw2SnpaX09pN0lnOTlUaGNWcTVHMzF3bHNjeWgwR01MWHdXcEUtbldma3NRRmNEa2hoRU16VVNZeXc0bEhOQkZ0QjFRbVg0T1JDUFRQU0xYbnVnM0g2Rjdua0s2RWIyX3NZMm5EaEgxUHNW?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-05-18"
+  },
+  {
+   "key": "sablebio",
+   "name": "Sable Bio",
+   "hq": "",
+   "segment": "Other life sciences tech",
+   "model": "unknown",
+   "covenant": false,
+   "score": 27,
+   "parts": {
+    "team": 6,
+    "momentum": 5,
+    "fit": 9,
+    "uk": 7,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2026-02-11",
+     "title": "UK AI drug safety startup Sable Bio raises €3.15 million; plans to grow its London team - EU-Startups",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHRJOVVSZEtjQTBpb1JPNEduNVpDSjJ4Q2hGYU1yVm91eWRxekxFMnctak5ubEtaMnlzZmQ1cElJb3ZNUFp0X0FoY2M1Y3VqSENVdzVXdFlvb3RvZ3d4T1ZQSElTRGxlZ3hEYnlNOXA2WEJFNjN5V0dTX1MtT3hVdTk2TjAtSk1LZnl6MDlkc1NnSjctMjZyd2FfU2Q0allGekxUbmw3OTZYZGVYdzJMN19LNkJweU9fbEVXY2ZLNy0?oc=5",
+     "source": "EU-Startups",
+     "amount_usd_m": 3.15
+    },
+    {
+     "kind": "funding",
+     "date": "2026-02-11",
+     "title": "Sable Bio secures £2.8 million Seed Investment led by MMC Ventures",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFVGd1V1ckJNWmIzYkZZLUtxczlGdXBISmFJUHduODhHaFExVnpQdU1jNy1yMGF6cTVGZlc4QTRaNW9RT0p3TDNIVzNycXl4ZmpMVXVyZ1BMOVJETTJBT2RjNkk3TXM1UUVoVzlTRFVpUUx2MF9XMnBGT1k3QzRPUWpUX2pTOU94Xzl5aEliUXJvVFdYbi1uTE5lSFp4dkFqRWt4UlpZQW0?oc=5",
+     "source": "UK Tech Investment News",
+     "amount_usd_m": 2.8
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "UK AI drug safety startup Sable Bio raises €3.15 million; plans to grow its London team - EU-Startups",
+    "date": "2026-02-11",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHRJOVVSZEtjQTBpb1JPNEduNVpDSjJ4Q2hGYU1yVm91eWRxekxFMnctak5ubEtaMnlzZmQ1cElJb3ZNUFp0X0FoY2M1Y3VqSENVdzVXdFlvb3RvZ3d4T1ZQSElTRGxlZ3hEYnlNOXA2WEJFNjN5V0dTX1MtT3hVdTk2TjAtSk1LZnl6MDlkc1NnSjctMjZyd2FfU2Q0allGekxUbmw3OTZYZGVYdzJMN19LNkJweU9fbEVXY2ZLNy0?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2026-02-11"
+  },
+  {
+   "key": "hothousetherapeutic",
+   "name": "HotHouse Therapeutic",
+   "hq": "",
+   "segment": "Other life sciences tech",
+   "model": "unknown",
+   "covenant": false,
+   "score": 24,
+   "parts": {
+    "team": 6,
+    "momentum": 5,
+    "fit": 9,
+    "uk": 4,
+    "reach": 0
+   },
+   "seeded": false,
+   "signals": [
+    {
+     "kind": "funding",
+     "date": "2025-12-02",
+     "title": "HotHouse Therapeutic secures £2.9 million Pre-Seed Investment from investors including SynBioVen",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR3FvcnY3NWgxQld3d1hOT2VHSzVKSDFhN19OdGtrdV9NVDc3MGhiYjhHT1hvcHpFSGxkYm40Nl9pck1aZlBhTEowVEhSejJhZkRTRzNOajNqeUtsRzJiaTV1VkNTTHlEQ0RVU0dnQW1id0UzaUowd01rV29QU3J0a0lGenpLeTktXzdVbXkyVzNoeW5ocmNHOU5GVzhvSlp6RENDRHdDektMS0hYR3dBVDg5eDk4YmhUVml3RTBYLTUtazR4UVc1ZDR1ZzhpVm13?oc=5",
+     "source": "UK Tech Investment News",
+     "amount_usd_m": 2.9
+    }
+   ],
+   "reason": {
+    "kind": "funding",
+    "title": "HotHouse Therapeutic secures £2.9 million Pre-Seed Investment from investors including SynBioVen",
+    "date": "2025-12-02",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR3FvcnY3NWgxQld3d1hOT2VHSzVKSDFhN19OdGtrdV9NVDc3MGhiYjhHT1hvcHpFSGxkYm40Nl9pck1aZlBhTEowVEhSejJhZkRTRzNOajNqeUtsRzJiaTV1VkNTTHlEQ0RVU0dnQW1id0UzaUowd01rV29QU3J0a0lGenpLeTktXzdVbXkyVzNoeW5ocmNHOU5GVzhvSlp6RENDRHdDektMS0hYR3dBVDg5eDk4YmhUVml3RTBYLTUtazR4UVc1ZDR1ZzhpVm13?oc=5"
+   },
+   "people_count": 0,
+   "commercial_roles": [],
+   "board": "",
+   "open_roles": 0,
+   "last_signal": "2025-12-02"
+  }
+ ],
+ "segments": [
+  "Clinical trials & real-world data",
+  "Imaging & diagnostics AI",
+  "Lab automation & bio-AI tools",
+  "AI drug discovery & development",
+  "Pharma data & AI software",
+  "Other life sciences tech"
+ ],
+ "people_enc": null,
+ "people_total": 18
+}

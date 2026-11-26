@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T17:07:06+00:00",
+ "generated_at": "2026-11-26T19:04:27+00:00",
  "companies": [
   {
    "name": "CodeRabbit",
@@ -539,32 +539,7 @@
    "signal_age": 254
   }
  ],
- "spotted": [
-  {
-   "name": "GenScript Convenes AI",
-   "score": 51,
-   "kind": "funding",
-   "title": "GenScript Convenes AI, Biotech and Investment Leaders in London as Faster AI-Enabled Drug Design Raises the Stakes for Biological Evidence - PR Newswire",
-   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSHJNaUZjYnJGZUxwR0ltRVdlZldZc3prcE4tRi13YW9HS0oxRktMZU5pWHVZMmJDSFVZcG02bFFlWm1LejFtWjhoR2RqM1lEWTlhLUpoaTYxdWRqazRQVDN0REtqZzdzc0xRY3N0TUZObVZ4ZElzY1NjTldkOGNBeGFRanZoTVVfMDJxQ28ySENmRzFLTkYtTTVaOG9qLWZ5emMyVHY1NVJYZmZITFNqV1BkV2doc0NtRkw4cTdDUmFvWTFVT0NyZGRMNEhpLTVPT0xWSjJZbkJSYWlZSFFSSldUSHo5aWhQeTcwcnI0WnNtTk5mTDhZbEtNQVZ0Q182QXRENVlUMmk3UmliUFA2YUNha0NLTG1odVk3MkJR?oc=5",
-   "published": "2026-11-25",
-   "source": "PR Newswire",
-   "sector": "Enterprise AI & data",
-   "covenant": true,
-   "tracked": false
-  },
-  {
-   "name": "Dubai Customs",
-   "score": 51,
-   "kind": "expansion",
-   "title": "Dubai Customs expands to London: Investors can now access UAE customs services from abroad - Gulf News",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY3FibWlrLXVyQWhYNkVXZzdLU1BpTjhpcFp1S19lbmVhekt3WFFDanZIWm1JNllkS3JEV1pCaWo5Vkh1bzExUWRUQ3lwVGlHZEFubDRtVDlrU1dTOXZ5VlVOdUNZWlVuSnNoMmR1dmdzOFp1VHFReTFJUGpibmRYNDYtZmdsLWlfNnNjQ2U1dkVwLVg2ZE5xdUhSS1hrZlREeUhGRDNaNWxYNWxZSjlnZzVNWWFqVGRHMnE2SEVyRGpvQUVQMHN2cDlWNnJjeDAtanBseDl30gHoAUFVX3lxTE5rakU5MTdHb3hOcHhDOFg1NGpFcl9nTVNHVjBBWnNZNERzVmdzelhnVjdXdUZUZWg4LXdDMEJhQ0pxZDNRaGZtc3FrSzM5M091LU1rVHZkOXdtTUdFNDNRWUhCMTVJZmxrOU8xQW9FanhNUW1CVE1zVzFDRnQwSjlFd3g5RVBEejhBNllUTFN6MG45cGI0YzNaN2N5VG8wN1Z1VjlyX3VVeURhbjg2YXhBTi1BYXh2NWM0RElDQ1AtMVNmbExJcWdJV0JYSDB5X1MySGJZRDEtZlgzZzQ0RzFOQmhoeUlRQXU?oc=5",
-   "published": "2026-11-24",
-   "source": "Gulf News",
-   "sector": "Other",
-   "covenant": false,
-   "tracked": false
-  }
- ],
+ "spotted": [],
  "pipeline": [
   {
    "company": "Bound",
