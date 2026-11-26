@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:02:38+00:00",
+ "generated_at": "2026-11-26T17:07:06+00:00",
  "companies": [
   {
    "name": "CodeRabbit",
@@ -156,48 +156,6 @@
    "signal_age": 182
   },
   {
-   "name": "Valarian",
-   "sector": "Enterprise AI & data",
-   "score": 83,
-   "status": "Engage now",
-   "hiring": "AE hiring, no SDR",
-   "parts": {
-    "team": 25,
-    "pay": 16,
-    "industry": 17,
-    "timing": 23,
-    "path": 2
-   },
-   "jobs": [
-    {
-     "title": "Business Development Manager - Defence",
-     "location": "London",
-     "url": "https://jobs.lever.co/valarian/7ad8195f-a853-4a9c-8fe7-473c116a3e89",
-     "pay": "",
-     "kind": "ae",
-     "new": false,
-     "flags": [],
-     "first_seen": "2026-10-23",
-     "route": "none",
-     "route_quote": "",
-     "inbound_led": false,
-     "spanish": false
-    }
-   ],
-   "board": "https://jobs.lever.co/valarian",
-   "board_kind": "lever",
-   "board_verified": false,
-   "signal": "$50M Series A (NEA)",
-   "signal_date": "2026-07-13",
-   "signal_kind": "funding",
-   "note": "Government buyers: seats may need security clearance",
-   "source": "",
-   "auto": true,
-   "horizon": "now",
-   "why_now": "AE hiring, no SDR",
-   "signal_age": 136
-  },
-  {
    "name": "CloudBees",
    "sector": "Dev tools",
    "score": 63,
@@ -265,6 +223,33 @@
    "horizon": "pipeline",
    "why_now": "",
    "signal_age": 140
+  },
+  {
+   "name": "Valarian",
+   "sector": "Enterprise AI & data",
+   "score": 72,
+   "status": "Watch",
+   "hiring": "No UK sales roles seen",
+   "parts": {
+    "team": 25,
+    "pay": 16,
+    "industry": 17,
+    "timing": 12,
+    "path": 2
+   },
+   "jobs": [],
+   "board": "https://jobs.lever.co/valarian",
+   "board_kind": "lever",
+   "board_verified": false,
+   "signal": "$50M Series A (NEA)",
+   "signal_date": "2026-07-13",
+   "signal_kind": "funding",
+   "note": "Government buyers: seats may need security clearance",
+   "source": "",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 136
   },
   {
    "name": "Arrakis",
@@ -554,7 +539,32 @@
    "signal_age": 254
   }
  ],
- "spotted": [],
+ "spotted": [
+  {
+   "name": "GenScript Convenes AI",
+   "score": 51,
+   "kind": "funding",
+   "title": "GenScript Convenes AI, Biotech and Investment Leaders in London as Faster AI-Enabled Drug Design Raises the Stakes for Biological Evidence - PR Newswire",
+   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSHJNaUZjYnJGZUxwR0ltRVdlZldZc3prcE4tRi13YW9HS0oxRktMZU5pWHVZMmJDSFVZcG02bFFlWm1LejFtWjhoR2RqM1lEWTlhLUpoaTYxdWRqazRQVDN0REtqZzdzc0xRY3N0TUZObVZ4ZElzY1NjTldkOGNBeGFRanZoTVVfMDJxQ28ySENmRzFLTkYtTTVaOG9qLWZ5emMyVHY1NVJYZmZITFNqV1BkV2doc0NtRkw4cTdDUmFvWTFVT0NyZGRMNEhpLTVPT0xWSjJZbkJSYWlZSFFSSldUSHo5aWhQeTcwcnI0WnNtTk5mTDhZbEtNQVZ0Q182QXRENVlUMmk3UmliUFA2YUNha0NLTG1odVk3MkJR?oc=5",
+   "published": "2026-11-25",
+   "source": "PR Newswire",
+   "sector": "Enterprise AI & data",
+   "covenant": true,
+   "tracked": false
+  },
+  {
+   "name": "Dubai Customs",
+   "score": 51,
+   "kind": "expansion",
+   "title": "Dubai Customs expands to London: Investors can now access UAE customs services from abroad - Gulf News",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY3FibWlrLXVyQWhYNkVXZzdLU1BpTjhpcFp1S19lbmVhekt3WFFDanZIWm1JNllkS3JEV1pCaWo5Vkh1bzExUWRUQ3lwVGlHZEFubDRtVDlrU1dTOXZ5VlVOdUNZWlVuSnNoMmR1dmdzOFp1VHFReTFJUGpibmRYNDYtZmdsLWlfNnNjQ2U1dkVwLVg2ZE5xdUhSS1hrZlREeUhGRDNaNWxYNWxZSjlnZzVNWWFqVGRHMnE2SEVyRGpvQUVQMHN2cDlWNnJjeDAtanBseDl30gHoAUFVX3lxTE5rakU5MTdHb3hOcHhDOFg1NGpFcl9nTVNHVjBBWnNZNERzVmdzelhnVjdXdUZUZWg4LXdDMEJhQ0pxZDNRaGZtc3FrSzM5M091LU1rVHZkOXdtTUdFNDNRWUhCMTVJZmxrOU8xQW9FanhNUW1CVE1zVzFDRnQwSjlFd3g5RVBEejhBNllUTFN6MG45cGI0YzNaN2N5VG8wN1Z1VjlyX3VVeURhbjg2YXhBTi1BYXh2NWM0RElDQ1AtMVNmbExJcWdJV0JYSDB5X1MySGJZRDEtZlgzZzQ0RzFOQmhoeUlRQXU?oc=5",
+   "published": "2026-11-24",
+   "source": "Gulf News",
+   "sector": "Other",
+   "covenant": false,
+   "tracked": false
+  }
+ ],
  "pipeline": [
   {
    "company": "Bound",
@@ -568,6 +578,19 @@
    "hiring": "",
    "board": "",
    "covenant": false
+  },
+  {
+   "company": "GenScript Convenes AI",
+   "kind": "funding",
+   "date": "2026-11-25",
+   "title": "GenScript Convenes AI, Biotech and Investment Leaders in London as Faster AI-Enabled Drug Design Raises the Stakes for Biological Evidence - PR Newswire",
+   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSHJNaUZjYnJGZUxwR0ltRVdlZldZc3prcE4tRi13YW9HS0oxRktMZU5pWHVZMmJDSFVZcG02bFFlWm1LejFtWjhoR2RqM1lEWTlhLUpoaTYxdWRqazRQVDN0REtqZzdzc0xRY3N0TUZObVZ4ZElzY1NjTldkOGNBeGFRanZoTVVfMDJxQ28ySENmRzFLTkYtTTVaOG9qLWZ5emMyVHY1NVJYZmZITFNqV1BkV2doc0NtRkw4cTdDUmFvWTFVT0NyZGRMNEhpLTVPT0xWSjJZbkJSYWlZSFFSSldUSHo5aWhQeTcwcnI0WnNtTk5mTDhZbEtNQVZ0Q182QXRENVlUMmk3UmliUFA2YUNha0NLTG1odVk3MkJR?oc=5",
+   "score": 51,
+   "sector": "Enterprise AI & data",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": true
   },
   {
    "company": "Franklin Templeton",
@@ -589,6 +612,19 @@
    "title": "Franklin Templeton appoints head of ETF, EMEA & Americas - Funds Europe",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzI3dTJ4b3pUMmhKdFFucGNqUU5CVm1DbjZHdG1jYS10RGEtbUk1X3RiUkU5cUJocFRtT28xVE54TGducko2elRmaUU1ejhuVF8tVVB6QzN5V2NEYlA4MlRBWUNteUpBdklGM3hJMGQ1M0psczFCYmFrSHJ0TEUwdVNZbmw5Zw?oc=5",
    "score": 54,
+   "sector": "Other",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
+  {
+   "company": "Dubai Customs",
+   "kind": "expansion",
+   "date": "2026-11-24",
+   "title": "Dubai Customs expands to London: Investors can now access UAE customs services from abroad - Gulf News",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY3FibWlrLXVyQWhYNkVXZzdLU1BpTjhpcFp1S19lbmVhekt3WFFDanZIWm1JNllkS3JEV1pCaWo5Vkh1bzExUWRUQ3lwVGlHZEFubDRtVDlrU1dTOXZ5VlVOdUNZWlVuSnNoMmR1dmdzOFp1VHFReTFJUGpibmRYNDYtZmdsLWlfNnNjQ2U1dkVwLVg2ZE5xdUhSS1hrZlREeUhGRDNaNWxYNWxZSjlnZzVNWWFqVGRHMnE2SEVyRGpvQUVQMHN2cDlWNnJjeDAtanBseDl30gHoAUFVX3lxTE5rakU5MTdHb3hOcHhDOFg1NGpFcl9nTVNHVjBBWnNZNERzVmdzelhnVjdXdUZUZWg4LXdDMEJhQ0pxZDNRaGZtc3FrSzM5M091LU1rVHZkOXdtTUdFNDNRWUhCMTVJZmxrOU8xQW9FanhNUW1CVE1zVzFDRnQwSjlFd3g5RVBEejhBNllUTFN6MG45cGI0YzNaN2N5VG8wN1Z1VjlyX3VVeURhbjg2YXhBTi1BYXh2NWM0RElDQ1AtMVNmbExJcWdJV0JYSDB5X1MySGJZRDEtZlgzZzQ0RzFOQmhoeUlRQXU?oc=5",
+   "score": 51,
    "sector": "Other",
    "tracked": false,
    "hiring": "",
@@ -736,6 +772,19 @@
    "tracked": true,
    "hiring": "No UK sales roles seen",
    "board": "https://apply.workable.com/arrakis",
+   "covenant": false
+  },
+  {
+   "company": "Valarian",
+   "kind": "funding",
+   "date": "2026-07-13",
+   "title": "$50M Series A (NEA)",
+   "link": "",
+   "score": 72,
+   "sector": "Enterprise AI & data",
+   "tracked": true,
+   "hiring": "No UK sales roles seen",
+   "board": "https://jobs.lever.co/valarian",
    "covenant": false
   },
   {
