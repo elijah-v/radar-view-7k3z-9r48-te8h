@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:52:21+00:00",
+ "generated_at": "2026-11-27T16:50:48+00:00",
  "companies": [
   {
    "name": "CodeRabbit",
@@ -441,6 +441,33 @@
    "signal_age": 4
   },
   {
+   "name": "Goldman",
+   "sector": "Dev tools",
+   "score": 63,
+   "status": "Watch",
+   "hiring": "Job board not found",
+   "parts": {
+    "team": 8,
+    "pay": 13,
+    "industry": 17,
+    "timing": 23,
+    "path": 2
+   },
+   "jobs": [],
+   "board": "",
+   "board_kind": "none",
+   "board_verified": false,
+   "signal": "Goldman hires Principal exec as head of EMEA capital formation - Green Street News",
+   "signal_date": "2026-11-27",
+   "signal_kind": "leader",
+   "note": "",
+   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1rV1lwdkNubzhaUGVfOXE5b2VOS0wxNjJ0aURHczc0b2JuM3A3SF9WbERwbXZqdHNMODk4Y2pRYnItWjI2NkxscVFpYVY3YUFMOHV4LW9YY2tBbGxZYkhYSS02bHdiMjMweV9tM21xOHh5eWZYMF8wcUZaTUMyWXdEQlJCYng3Y2xTOHRaaHFlRjc4d285OURTSFVKV3Nv?oc=5",
+   "auto": true,
+   "horizon": "pipeline",
+   "why_now": "",
+   "signal_age": 0
+  },
+  {
    "name": "Arrive",
    "sector": "Enterprise AI & data",
    "score": 60,
@@ -539,20 +566,7 @@
    "signal_age": 255
   }
  ],
- "spotted": [
-  {
-   "name": "Goldman",
-   "score": 63,
-   "kind": "leader",
-   "title": "Goldman hires Principal exec as head of EMEA capital formation - Green Street News",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1rV1lwdkNubzhaUGVfOXE5b2VOS0wxNjJ0aURHczc0b2JuM3A3SF9WbERwbXZqdHNMODk4Y2pRYnItWjI2NkxscVFpYVY3YUFMOHV4LW9YY2tBbGxZYkhYSS02bHdiMjMweV9tM21xOHh5eWZYMF8wcUZaTUMyWXdEQlJCYng3Y2xTOHRaaHFlRjc4d285OURTSFVKV3Nv?oc=5",
-   "published": "2026-11-27",
-   "source": "Green Street News",
-   "sector": "Dev tools",
-   "covenant": false,
-   "tracked": true
-  }
- ],
+ "spotted": [],
  "pipeline": [
   {
    "company": "Goldman",
@@ -562,8 +576,8 @@
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1rV1lwdkNubzhaUGVfOXE5b2VOS0wxNjJ0aURHczc0b2JuM3A3SF9WbERwbXZqdHNMODk4Y2pRYnItWjI2NkxscVFpYVY3YUFMOHV4LW9YY2tBbGxZYkhYSS02bHdiMjMweV9tM21xOHh5eWZYMF8wcUZaTUMyWXdEQlJCYng3Y2xTOHRaaHFlRjc4d285OURTSFVKV3Nv?oc=5",
    "score": 63,
    "sector": "Dev tools",
-   "tracked": false,
-   "hiring": "",
+   "tracked": true,
+   "hiring": "Job board not found",
    "board": "",
    "covenant": false
   },
