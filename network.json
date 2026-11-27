@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:05:52+00:00",
+ "generated_at": "2026-11-27T13:52:44+00:00",
  "companies": [
   {
    "key": "boltz",
@@ -35,7 +35,7 @@
    "people_count": 0,
    "commercial_roles": [],
    "board": "https://jobs.ashbyhq.com/boltz",
-   "open_roles": 9,
+   "open_roles": 10,
    "last_signal": "2026-11-18"
   },
   {
@@ -103,7 +103,7 @@
    "reason": {
     "kind": "hiring",
     "title": "Hiring commercial roles in the UK/Europe: (Senior) Account Executive, Business Development Associate",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "link": "https://apply.workable.com/helical"
    },
    "people_count": 0,
@@ -223,10 +223,10 @@
     }
    ],
    "reason": {
-    "kind": "hiring",
-    "title": "Hiring commercial roles in the UK/Europe: Scientific Account Executive, Head of Partnerships (AI & Biotech), Partnerships Manager, AI & Frontier Labs",
+    "kind": "expansion",
+    "title": "Adaptyv raises $40M Series A and plans a new London office and lab in Q4 2026; customers include Roche and Novo Nordisk",
     "date": "2026-11-26",
-    "link": "https://jobs.ashbyhq.com/adaptyv"
+    "link": "https://pulse2.com/adaptyv-raises-40-million-series-a-as-automated-biology-lab-throughput-grows-more-than-5x/amp/"
    },
    "people_count": 0,
    "commercial_roles": [
@@ -395,7 +395,7 @@
    "people_count": 0,
    "commercial_roles": [],
    "board": "https://job-boards.greenhouse.io/isomorphiclabs",
-   "open_roles": 38,
+   "open_roles": 37,
    "last_signal": "2026-05-13"
   },
   {
@@ -479,7 +479,7 @@
    "reason": {
     "kind": "hiring",
     "title": "Hiring commercial roles in the UK/Europe: Strategy & Solutions Lead",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "link": "https://jobs.ashbyhq.com/causaly"
    },
    "people_count": 0,
@@ -642,6 +642,14 @@
      "title": "Exclusive: London’s Pharosyn raises $3M to speed up pharma’s commercial decisions",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVlHaU8weU84M2tVMW16QkpNVTRZTHpwZ0dmNXY5S0lHRUhJVGh3WlFzQXBIZUJYY2RidWEta2dycWNBbUk4VXRqWjFoekh6OHFyeDVjTzRYUWFXZWpQNElZcTlPVUUtZHh0d1V2Z0tsNnBVNF9LZ2lCRzc5Z0F0QXJ6bTMtWUtJVGc?oc=5",
      "source": "Tech Funding News",
+     "amount_usd_m": 3.0
+    },
+    {
+     "kind": "funding",
+     "date": "2026-09-02",
+     "title": "London's Pharosyn raises $3M seed to speed up pharma's commercial calls",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbndlV0dhR3FtdnNSRTBFNFVkUkhFNjFPbnhMalJqUFl2R2JWUHdfRG9YYzJ3T21ScE1EWjg0QUxmS1U0bHdXYzdmX1d4R2N3VGc4RTdMZUpNYkJpX0FfdWVGX3dKT0J5RExsYjEzNjR0ZFZDNjN5SGY4ejl3WWZia18xN0dJYkNXMzZ2MUJXUmdSYWR3UkRNVk5ra2pZNmU3cWVLTUpvZw?oc=5",
+     "source": "Dealroom",
      "amount_usd_m": 3.0
     }
    ],

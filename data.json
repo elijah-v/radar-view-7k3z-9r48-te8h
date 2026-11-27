@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:05:18+00:00",
+ "generated_at": "2026-11-27T13:52:21+00:00",
  "companies": [
   {
    "name": "CodeRabbit",
@@ -57,7 +57,7 @@
    "auto": false,
    "horizon": "now",
    "why_now": "SDR/BDR open, but the ad states no route to AE",
-   "signal_age": 106
+   "signal_age": 107
   },
   {
    "name": "Zenity",
@@ -83,8 +83,8 @@
    "source": "",
    "auto": false,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 11 days ago",
-   "signal_age": 11
+   "why_now": "UK / EMEA sales leader hire, 12 days ago",
+   "signal_age": 12
   },
   {
    "name": "incident.io",
@@ -110,8 +110,8 @@
    "source": "",
    "auto": true,
    "horizon": "now",
-   "why_now": "UK / EMEA sales leader hire, 42 days ago",
-   "signal_age": 42
+   "why_now": "UK / EMEA sales leader hire, 43 days ago",
+   "signal_age": 43
   },
   {
    "name": "Geordie AI",
@@ -153,7 +153,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 182
+   "signal_age": 183
   },
   {
    "name": "CloudBees",
@@ -195,7 +195,7 @@
    "auto": true,
    "horizon": "now",
    "why_now": "AE hiring, no SDR",
-   "signal_age": 14
+   "signal_age": 15
   },
   {
    "name": "Cyera",
@@ -222,7 +222,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 140
+   "signal_age": 141
   },
   {
    "name": "Valarian",
@@ -249,7 +249,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 136
+   "signal_age": 137
   },
   {
    "name": "Arrakis",
@@ -276,7 +276,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 125
+   "signal_age": 126
   },
   {
    "name": "Fractile",
@@ -303,7 +303,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 9
+   "signal_age": 10
   },
   {
    "name": "Agon",
@@ -330,7 +330,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 3
+   "signal_age": 4
   },
   {
    "name": "Gradient Labs",
@@ -357,7 +357,7 @@
    "auto": false,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 178
+   "signal_age": 179
   },
   {
    "name": "Ankar",
@@ -384,7 +384,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 344
+   "signal_age": 345
   },
   {
    "name": "Model ML",
@@ -411,7 +411,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 9
+   "signal_age": 10
   },
   {
    "name": "BTIG",
@@ -438,7 +438,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 3
+   "signal_age": 4
   },
   {
    "name": "Arrive",
@@ -465,7 +465,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 8
+   "signal_age": 9
   },
   {
    "name": "Mindgard",
@@ -492,7 +492,7 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 106
+   "signal_age": 107
   },
   {
    "name": "Tracebit",
@@ -536,11 +536,37 @@
    "auto": true,
    "horizon": "pipeline",
    "why_now": "",
-   "signal_age": 254
+   "signal_age": 255
   }
  ],
- "spotted": [],
+ "spotted": [
+  {
+   "name": "Goldman",
+   "score": 63,
+   "kind": "leader",
+   "title": "Goldman hires Principal exec as head of EMEA capital formation - Green Street News",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1rV1lwdkNubzhaUGVfOXE5b2VOS0wxNjJ0aURHczc0b2JuM3A3SF9WbERwbXZqdHNMODk4Y2pRYnItWjI2NkxscVFpYVY3YUFMOHV4LW9YY2tBbGxZYkhYSS02bHdiMjMweV9tM21xOHh5eWZYMF8wcUZaTUMyWXdEQlJCYng3Y2xTOHRaaHFlRjc4d285OURTSFVKV3Nv?oc=5",
+   "published": "2026-11-27",
+   "source": "Green Street News",
+   "sector": "Dev tools",
+   "covenant": false,
+   "tracked": true
+  }
+ ],
  "pipeline": [
+  {
+   "company": "Goldman",
+   "kind": "leader",
+   "date": "2026-11-27",
+   "title": "Goldman hires Principal exec as head of EMEA capital formation - Green Street News",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1rV1lwdkNubzhaUGVfOXE5b2VOS0wxNjJ0aURHczc0b2JuM3A3SF9WbERwbXZqdHNMODk4Y2pRYnItWjI2NkxscVFpYVY3YUFMOHV4LW9YY2tBbGxZYkhYSS02bHdiMjMweV9tM21xOHh5eWZYMF8wcUZaTUMyWXdEQlJCYng3Y2xTOHRaaHFlRjc4d285OURTSFVKV3Nv?oc=5",
+   "score": 63,
+   "sector": "Dev tools",
+   "tracked": false,
+   "hiring": "",
+   "board": "",
+   "covenant": false
+  },
   {
    "company": "Bound",
    "kind": "funding",
